@@ -219,6 +219,59 @@
       "result": "pending"
     },
     {
+      "player": "Rafael Devers",
+      "team": "San Francisco Giants",
+      "opponent": "Detroit Tigers",
+      "venue": "Oracle Park",
+      "opposing_starter": "Troy Melton",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1517,
+      "neutral_hr_probability": 0.1607,
+      "context_boost": -0.009,
+      "hr_per_pa": 0.0376,
+      "confidence": "Medium-low",
+      "signals": [
+        "24 HR in 495 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable",
+        "park factor 0.94 for L-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
       "player": "Victor Mesa Jr.",
       "team": "Tampa Bay Rays",
       "opponent": "Seattle Mariners",
@@ -252,6 +305,487 @@
         "minor-league HR and PA",
         "starter Statcast profile",
         "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Ketel Marte",
+      "team": "Arizona Diamondbacks",
+      "opponent": "Los Angeles Dodgers",
+      "venue": "Chase Field",
+      "opposing_starter": "Justin Wrobleski",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1383,
+      "neutral_hr_probability": 0.1383,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0341,
+      "confidence": "Medium-low",
+      "signals": [
+        "19 HR in 496 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Osleivis Basabe",
+      "team": "San Francisco Giants",
+      "opponent": "Detroit Tigers",
+      "venue": "Oracle Park",
+      "opposing_starter": "Troy Melton",
+      "batting_order": 5,
+      "expected_pa": 3.92,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1379,
+      "neutral_hr_probability": 0.1508,
+      "context_boost": -0.0128,
+      "hr_per_pa": 0.0371,
+      "confidence": "Medium-low",
+      "signals": [
+        "3 HR in 29 PA",
+        "Batting order 5",
+        "pitch-shape interaction unavailable",
+        "park factor 0.91 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Andy Pages",
+      "team": "Los Angeles Dodgers",
+      "opponent": "Arizona Diamondbacks",
+      "venue": "Chase Field",
+      "opposing_starter": "Eduardo Rodriguez",
+      "batting_order": 2,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1376,
+      "neutral_hr_probability": 0.1376,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0339,
+      "confidence": "Medium-low",
+      "signals": [
+        "19 HR in 500 PA",
+        "Batting order 2",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Eduardo Valencia",
+      "team": "Detroit Tigers",
+      "opponent": "San Francisco Giants",
+      "venue": "Oracle Park",
+      "opposing_starter": "Logan Webb",
+      "batting_order": 8,
+      "expected_pa": 3.61,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1357,
+      "neutral_hr_probability": 0.1484,
+      "context_boost": -0.0127,
+      "hr_per_pa": 0.0396,
+      "confidence": "Medium-low",
+      "signals": [
+        "4 HR in 39 PA",
+        "Batting order 8",
+        "pitch-shape interaction unavailable",
+        "park factor 0.91 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.11000000000000001,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Nolan Arenado",
+      "team": "Arizona Diamondbacks",
+      "opponent": "Los Angeles Dodgers",
+      "venue": "Chase Field",
+      "opposing_starter": "Justin Wrobleski",
+      "batting_order": 5,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.1315,
+      "neutral_hr_probability": 0.1315,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0347,
+      "confidence": "Medium-low",
+      "signals": [
+        "17 HR in 430 PA",
+        "Batting order 5",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Willy Adames",
+      "team": "San Francisco Giants",
+      "opponent": "Detroit Tigers",
+      "venue": "Oracle Park",
+      "opposing_starter": "Troy Melton",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1308,
+      "neutral_hr_probability": 0.143,
+      "context_boost": -0.0122,
+      "hr_per_pa": 0.0321,
+      "confidence": "Medium-low",
+      "signals": [
+        "19 HR in 469 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable",
+        "park factor 0.91 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Bryce Eldridge",
+      "team": "San Francisco Giants",
+      "opponent": "Detroit Tigers",
+      "venue": "Oracle Park",
+      "opposing_starter": "Troy Melton",
+      "batting_order": 1,
+      "expected_pa": 4.49,
+      "classification": "Established",
+      "projected_hr_probability": 0.1307,
+      "neutral_hr_probability": 0.1386,
+      "context_boost": -0.0079,
+      "hr_per_pa": 0.0307,
+      "confidence": "Medium-low",
+      "signals": [
+        "11 HR in 301 PA",
+        "Batting order 1",
+        "pitch-shape interaction unavailable",
+        "park factor 0.94 for L-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.55
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Mookie Betts",
+      "team": "Los Angeles Dodgers",
+      "opponent": "Arizona Diamondbacks",
+      "venue": "Chase Field",
+      "opposing_starter": "Eduardo Rodriguez",
+      "batting_order": 5,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.1284,
+      "neutral_hr_probability": 0.1284,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0338,
+      "confidence": "Medium-low",
+      "signals": [
+        "13 HR in 338 PA",
+        "Batting order 5",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Spencer Torkelson",
+      "team": "Detroit Tigers",
+      "opponent": "San Francisco Giants",
+      "venue": "Oracle Park",
+      "opposing_starter": "Logan Webb",
+      "batting_order": 6,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.1279,
+      "neutral_hr_probability": 0.1398,
+      "context_boost": -0.0119,
+      "hr_per_pa": 0.0337,
+      "confidence": "Medium-low",
+      "signals": [
+        "20 HR in 460 PA",
+        "Batting order 6",
+        "pitch-shape interaction unavailable",
+        "park factor 0.91 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile"
       ],
       "features": {
         "sc_pa": null,

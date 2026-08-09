@@ -38,3 +38,15 @@ The daily model now integrates:
 - `miss_review.py` for preliminary postgame miss labels.
 
 The current public-data pipeline uses confirmed MLB lineups, season stats, and Statcast. Some accuracy modules intentionally run at neutral weight until a verified same-day weather, roof, bullpen, and minor-league data feed is connected. Every neutral fallback is written to `missing_inputs` rather than hidden.
+
+
+## Number of displayed players
+
+The model now defaults to **15 daily players** instead of five. It aims for roughly 60% established profiles and 40% under-the-radar profiles when the data supports both groups.
+
+To change the count in GitHub Actions, set an environment variable for the build step:
+
+```yaml
+env:
+  MAX_CALLS: "20"
+```
