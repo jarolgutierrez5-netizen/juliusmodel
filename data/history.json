@@ -1,26 +1,46 @@
 [
   {
     "date": "2026-08-09",
-    "player": "Junior Caminero",
-    "team": "Tampa Bay Rays",
-    "opponent": "Seattle Mariners",
-    "venue": "T-Mobile Park",
-    "opposing_starter": "Emerson Hancock",
+    "game_pk": 823268,
+    "game": "Houston Astros at San Diego Padres",
+    "player": "Ty France",
+    "team": "San Diego Padres",
+    "opponent": "Houston Astros",
+    "venue": "Petco Park",
+    "opposing_starter": "Cristian Javier",
     "batting_order": 4,
     "expected_pa": 4.29,
-    "classification": "Established",
-    "projected_hr_probability": 0.1897,
-    "neutral_hr_probability": 0.197,
-    "context_boost": -0.0073,
-    "hr_per_pa": 0.0478,
+    "classification": "Under-the-radar",
+    "projected_hr_probability": 0.1538,
+    "neutral_hr_probability": 0.1598,
+    "context_boost": -0.006,
+    "hr_per_pa": 0.0382,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0398,
     "confidence": "Medium-low",
     "signals": [
-      "33 HR in 506 PA",
+      "16 HR in 322 PA",
       "Batting order 4",
       "pitch-shape interaction unavailable",
       "park factor 0.96 for R-handed power"
     ],
     "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 52,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 76.3,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
     "playing_time": {
       "start_probability": 1.0,
       "substitution_risk": 0.03,
@@ -33,7 +53,7 @@
       "maximum exit velocity",
       "minor-league HR and PA",
       "starter Statcast profile",
-      "verified roof status"
+      "trained historical model artifact"
     ],
     "features": {
       "sc_pa": null,
@@ -56,135 +76,46 @@
   },
   {
     "date": "2026-08-09",
-    "player": "Shohei Ohtani",
-    "team": "Los Angeles Dodgers",
-    "opponent": "Arizona Diamondbacks",
-    "venue": "Chase Field",
-    "opposing_starter": "Eduardo Rodriguez",
-    "batting_order": 1,
-    "expected_pa": 4.49,
-    "classification": "Established",
-    "projected_hr_probability": 0.1773,
-    "neutral_hr_probability": 0.1773,
-    "context_boost": 0.0,
-    "hr_per_pa": 0.0425,
-    "confidence": "Medium-low",
-    "signals": [
-      "26 HR in 492 PA",
-      "Batting order 1",
-      "pitch-shape interaction unavailable"
-    ],
-    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
-    "playing_time": {
-      "start_probability": 1.0,
-      "substitution_risk": 0.03,
-      "lineup_pa_baseline": 4.55
-    },
-    "starter_exposure_share": 0.65,
-    "missing_inputs": [
-      "game-time temperature and wind",
-      "handedness-split bullpen HR/barrel rates",
-      "maximum exit velocity",
-      "minor-league HR and PA",
-      "starter Statcast profile",
-      "validated handedness-specific park factor",
-      "verified roof status"
-    ],
-    "features": {
-      "sc_pa": null,
-      "barrel_per_pa": null,
-      "barrel_rate": null,
-      "avg_ev": null,
-      "max_ev": null,
-      "hard_hit_rate": null,
-      "fly_ball_rate": null,
-      "recent_barrel_per_pa": null,
-      "hr_per_pa_statcast": null,
-      "pulled_air_rate": null
-    },
-    "pitcher_features": {
-      "barrel_per_pa": null,
-      "fly_ball_rate": null,
-      "hr_per_pa_statcast": null
-    },
-    "result": "pending"
-  },
-  {
-    "date": "2026-08-09",
-    "player": "Dillon Dingler",
-    "team": "Detroit Tigers",
-    "opponent": "San Francisco Giants",
-    "venue": "Oracle Park",
-    "opposing_starter": "Logan Webb",
+    "game_pk": 823268,
+    "game": "Houston Astros at San Diego Padres",
+    "player": "Manny Machado",
+    "team": "San Diego Padres",
+    "opponent": "Houston Astros",
+    "venue": "Petco Park",
+    "opposing_starter": "Cristian Javier",
     "batting_order": 3,
     "expected_pa": 4.29,
     "classification": "Established",
-    "projected_hr_probability": 0.163,
-    "neutral_hr_probability": 0.1779,
-    "context_boost": -0.0149,
-    "hr_per_pa": 0.0406,
+    "projected_hr_probability": 0.1518,
+    "neutral_hr_probability": 0.1577,
+    "context_boost": -0.0059,
+    "hr_per_pa": 0.0376,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0392,
     "confidence": "Medium-low",
     "signals": [
-      "26 HR in 458 PA",
+      "23 HR in 488 PA",
       "Batting order 3",
       "pitch-shape interaction unavailable",
-      "park factor 0.91 for R-handed power"
+      "park factor 0.96 for R-handed power"
     ],
     "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
-    "playing_time": {
-      "start_probability": 1.0,
-      "substitution_risk": 0.03,
-      "lineup_pa_baseline": 4.35
+    "signal_score": 52,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 72.8,
+      "recent_contact_trend": 50.0
     },
-    "starter_exposure_share": 0.65,
-    "missing_inputs": [
-      "game-time temperature and wind",
-      "handedness-split bullpen HR/barrel rates",
-      "maximum exit velocity",
-      "minor-league HR and PA",
-      "starter Statcast profile"
+    "signal_tags": [
+      "balanced power profile"
     ],
-    "features": {
-      "sc_pa": null,
-      "barrel_per_pa": null,
-      "barrel_rate": null,
-      "avg_ev": null,
-      "max_ev": null,
-      "hard_hit_rate": null,
-      "fly_ball_rate": null,
-      "recent_barrel_per_pa": null,
-      "hr_per_pa_statcast": null,
-      "pulled_air_rate": null
-    },
-    "pitcher_features": {
-      "barrel_per_pa": null,
-      "fly_ball_rate": null,
-      "hr_per_pa_statcast": null
-    },
-    "result": "pending"
-  },
-  {
-    "date": "2026-08-09",
-    "player": "Dominic Canzone",
-    "team": "Seattle Mariners",
-    "opponent": "Tampa Bay Rays",
-    "venue": "T-Mobile Park",
-    "opposing_starter": "Ian Seymour",
-    "batting_order": 4,
-    "expected_pa": 4.29,
-    "classification": "Under-the-radar",
-    "projected_hr_probability": 0.1607,
-    "neutral_hr_probability": 0.1669,
-    "context_boost": -0.0062,
-    "hr_per_pa": 0.04,
-    "confidence": "Medium-low",
-    "signals": [
-      "18 HR in 340 PA",
-      "Batting order 4",
-      "pitch-shape interaction unavailable",
-      "park factor 0.96 for L-handed power"
-    ],
-    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
     "playing_time": {
       "start_probability": 1.0,
       "substitution_risk": 0.03,
@@ -197,7 +128,7 @@
       "maximum exit velocity",
       "minor-league HR and PA",
       "starter Statcast profile",
-      "verified roof status"
+      "trained historical model artifact"
     ],
     "features": {
       "sc_pa": null,
@@ -220,26 +151,46 @@
   },
   {
     "date": "2026-08-09",
-    "player": "Victor Mesa Jr.",
-    "team": "Tampa Bay Rays",
-    "opponent": "Seattle Mariners",
-    "venue": "T-Mobile Park",
-    "opposing_starter": "Emerson Hancock",
-    "batting_order": 6,
+    "game_pk": 823268,
+    "game": "Houston Astros at San Diego Padres",
+    "player": "Jackson Merrill",
+    "team": "San Diego Padres",
+    "opponent": "Houston Astros",
+    "venue": "Petco Park",
+    "opposing_starter": "Cristian Javier",
+    "batting_order": 5,
     "expected_pa": 4.0,
-    "classification": "Under-the-radar",
-    "projected_hr_probability": 0.1471,
-    "neutral_hr_probability": 0.1529,
-    "context_boost": -0.0058,
-    "hr_per_pa": 0.0391,
+    "classification": "Established",
+    "projected_hr_probability": 0.1181,
+    "neutral_hr_probability": 0.1228,
+    "context_boost": -0.0047,
+    "hr_per_pa": 0.031,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0323,
     "confidence": "Medium-low",
     "signals": [
-      "9 HR in 159 PA",
-      "Batting order 6",
+      "17 HR in 483 PA",
+      "Batting order 5",
       "pitch-shape interaction unavailable",
       "park factor 0.96 for L-handed power"
     ],
     "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 49,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 56.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
     "playing_time": {
       "start_probability": 1.0,
       "substitution_risk": 0.03,
@@ -252,7 +203,457 @@
       "maximum exit velocity",
       "minor-league HR and PA",
       "starter Statcast profile",
-      "verified roof status"
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-09",
+    "game_pk": 823268,
+    "game": "Houston Astros at San Diego Padres",
+    "player": "Gavin Sheets",
+    "team": "San Diego Padres",
+    "opponent": "Houston Astros",
+    "venue": "Petco Park",
+    "opposing_starter": "Cristian Javier",
+    "batting_order": 7,
+    "expected_pa": 3.68,
+    "classification": "Established",
+    "projected_hr_probability": 0.1127,
+    "neutral_hr_probability": 0.1172,
+    "context_boost": -0.0045,
+    "hr_per_pa": 0.032,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0333,
+    "confidence": "Medium-low",
+    "signals": [
+      "14 HR in 375 PA",
+      "Batting order 7",
+      "pitch-shape interaction unavailable",
+      "park factor 0.96 for L-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 49,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 59.8,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-09",
+    "game_pk": 823268,
+    "game": "Houston Astros at San Diego Padres",
+    "player": "Fernando Tatis Jr.",
+    "team": "San Diego Padres",
+    "opponent": "Houston Astros",
+    "venue": "Petco Park",
+    "opposing_starter": "Cristian Javier",
+    "batting_order": 1,
+    "expected_pa": 4.49,
+    "classification": "Established",
+    "projected_hr_probability": 0.0957,
+    "neutral_hr_probability": 0.0996,
+    "context_boost": -0.0038,
+    "hr_per_pa": 0.0222,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0231,
+    "confidence": "Medium-low",
+    "signals": [
+      "10 HR in 513 PA",
+      "Batting order 1",
+      "pitch-shape interaction unavailable",
+      "park factor 0.96 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 48,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 36.0,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.55
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-09",
+    "game_pk": 823268,
+    "game": "Houston Astros at San Diego Padres",
+    "player": "Freddy Fermin",
+    "team": "San Diego Padres",
+    "opponent": "Houston Astros",
+    "venue": "Petco Park",
+    "opposing_starter": "Cristian Javier",
+    "batting_order": 9,
+    "expected_pa": 3.68,
+    "classification": "Established",
+    "projected_hr_probability": 0.0847,
+    "neutral_hr_probability": 0.0881,
+    "context_boost": -0.0034,
+    "hr_per_pa": 0.0238,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0247,
+    "confidence": "Medium-low",
+    "signals": [
+      "4 HR in 197 PA",
+      "Batting order 9",
+      "pitch-shape interaction unavailable",
+      "park factor 0.96 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 46,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 37.1,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-09",
+    "game_pk": 823268,
+    "game": "Houston Astros at San Diego Padres",
+    "player": "Xander Bogaerts",
+    "team": "San Diego Padres",
+    "opponent": "Houston Astros",
+    "venue": "Petco Park",
+    "opposing_starter": "Cristian Javier",
+    "batting_order": 8,
+    "expected_pa": 3.68,
+    "classification": "Established",
+    "projected_hr_probability": 0.081,
+    "neutral_hr_probability": 0.0843,
+    "context_boost": -0.0033,
+    "hr_per_pa": 0.0227,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0236,
+    "confidence": "Medium-low",
+    "signals": [
+      "9 HR in 446 PA",
+      "Batting order 8",
+      "pitch-shape interaction unavailable",
+      "park factor 0.96 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 46,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 36.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-09",
+    "game_pk": 823268,
+    "game": "Houston Astros at San Diego Padres",
+    "player": "Jake Cronenworth",
+    "team": "San Diego Padres",
+    "opponent": "Houston Astros",
+    "venue": "Petco Park",
+    "opposing_starter": "Cristian Javier",
+    "batting_order": 2,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.0809,
+    "neutral_hr_probability": 0.0842,
+    "context_boost": -0.0033,
+    "hr_per_pa": 0.0195,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0203,
+    "confidence": "Medium-low",
+    "signals": [
+      "3 HR in 249 PA",
+      "Batting order 2",
+      "pitch-shape interaction unavailable",
+      "park factor 0.96 for L-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 46,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 26.1,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-09",
+    "game_pk": 823268,
+    "game": "Houston Astros at San Diego Padres",
+    "player": "Luis Rengifo",
+    "team": "San Diego Padres",
+    "opponent": "Houston Astros",
+    "venue": "Petco Park",
+    "opposing_starter": "Cristian Javier",
+    "batting_order": 6,
+    "expected_pa": 4.0,
+    "classification": "Established",
+    "projected_hr_probability": 0.0669,
+    "neutral_hr_probability": 0.0669,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0172,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0172,
+    "confidence": "Medium-low",
+    "signals": [
+      "2 HR in 292 PA",
+      "Batting order 6",
+      "pitch-shape interaction unavailable",
+      "park factor 1.00 for S-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 45,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 19.1,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
     ],
     "features": {
       "sc_pa": null,
