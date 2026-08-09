@@ -388,15 +388,39 @@ def main() -> None:
             calls_by_game[game_id] = {"game_pk": call["game_pk"], "game": call["game"], "venue": call["venue"], "players": []}
         calls_by_game[game_id]["players"].append(call)
     for game_block in calls_by_game.values():
-        game_block["players"].sort(key=lambda item: item["projected_hr_probability"], reverse=True)
-        player_count = len(game_block["players"])
-        # Adaptive depth: shorter cards for small lineups, wider cards only for full games.
-        keep_count = 4 if player_count <= 16 else 6
-        game_block["players"] = game_block["players"][:keep_count]
-        game_block["game_favorite"] = game_block["players"][0]["player"] if game_block["players"] else None
-        under = next((item["player"] for item in game_block["players"] if item["classification"] == "Under-the-radar"), None)
-        game_block["under_the_radar"] = under
-        game_block["context_riser"] = max(game_block["players"], key=lambda item: item["context_boost"])["player"] if game_block["players"] else None
+        ranked_players = sorted(game_block["players"], key=lambda item: item["projected_hr_probability"], reverse=True)
+        qualifying = [
+            item for item in ranked_players
+            if item["classification"] == "Under-the-radar"
+            and item["projected_hr_probability"] >= 0.12
+            and len(item.get("signals", [])) >= 2
+            and "confirmed opposing starter" not in item.get("missing_inputs", [])
+        ]
+        primary = qualifying[0] if qualifying else None
+        secondary = None
+        tertiary = None
+        if primary:
+            for item in qualifying[1:]:
+                close_to_primary = item["projected_hr_probability"] >= 0.85 * primary["projected_hr_probability"]
+                strong_context = item["projected_hr_probability"] >= 0.11 and item["context_boost"] >= 0.012
+                if close_to_primary or strong_context:
+                    secondary = item
+                    break
+            if secondary:
+                for item in qualifying[2:]:
+                    exceptionally_close = item["projected_hr_probability"] >= 0.92 * secondary["projected_hr_probability"]
+                    elite_context = item["projected_hr_probability"] >= 0.12 and item["context_boost"] >= 0.020
+                    if exceptionally_close or elite_context:
+                        tertiary = item
+                        break
+        game_block["players"] = [item for item in [primary, secondary, tertiary] if item is not None]
+        game_block["game_favorite"] = ranked_players[0]["player"] if ranked_players else None
+        game_block["under_the_radar"] = primary["player"] if primary else None
+        game_block["secondary_under_the_radar"] = secondary["player"] if secondary else None
+        game_block["tertiary_under_the_radar"] = tertiary["player"] if tertiary else None
+        game_block["context_riser"] = max(ranked_players, key=lambda item: item["context_boost"])["player"] if ranked_players else None
+        game_block["status"] = "qualifying call" if primary else "pass"
+        game_block["pass_reason"] = None if primary else "No non-star hitter cleared the 12% probability and support-signal threshold."
 
     output = {
         "date": TODAY,
