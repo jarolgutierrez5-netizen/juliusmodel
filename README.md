@@ -67,3 +67,17 @@ python scripts/backtest_hr_model.py \
 ```
 
 The training script uses a **chronological** split and Platt calibration on later data, rather than random splitting. Do not publish calibrated probabilities until `data/training_report.json` and the independent holdout report show acceptable Brier score and probability-bucket calibration.
+
+
+## Building the historical training dataset
+
+Run the feature builder on **completed historical seasons only**. The data source does not provide reliable future-season records, so do not request dates beyond the current day.
+
+```bash
+python scripts/build_historical_dataset.py \
+  --start 2024-03-28 \
+  --end 2025-09-28 \
+  --output data/training/hitter_game_features.parquet
+```
+
+For a quick integrity check first, use a recent completed 60+ day range. The builder caches monthly raw Statcast downloads in `data/training/raw_statcast/`, then writes a leakage-safe hitter-game feature table.
