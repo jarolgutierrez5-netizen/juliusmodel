@@ -213,6 +213,7 @@ def main() -> None:
 
     lineup_rows: list[dict[str, Any]] = []
     game_context: dict[int, dict[str, Any]] = {}
+    game_labels: dict[int, str] = {}
     for game in games:
         if game["status"].get("detailedState") not in {"Scheduled", "Pre-Game", "Warmup"}:
             continue
@@ -223,6 +224,7 @@ def main() -> None:
             "away_pitcher": game["teams"]["away"].get("probablePitcher", {}),
             "home_pitcher": game["teams"]["home"].get("probablePitcher", {}),
         }
+        game_labels[game_pk] = f"{game['teams']['away']['team']['name']} at {game['teams']['home']['team']['name']}"
         for side in ("away", "home"):
             team = box["teams"][side]
             opponent_side = "home" if side == "away" else "away"
@@ -268,7 +270,9 @@ def main() -> None:
         raw_p = (stats["hr"] + HR_PRIOR_PA * LEAGUE_HR_PER_PA) / (stats["pa"] + HR_PRIOR_PA)
         raw_game = 1 - (1 - raw_p) ** playing_time_expected_pa(batting_order=row["batting_order"], confirmed_lineup=True, is_platoon=False, catcher=False, rookie_pa=stats["pa"])[0]
         base_rows.append({**row, **stats, "raw_game": raw_game})
-    base_rows = sorted(base_rows, key=lambda record: record["raw_game"], reverse=True)[:24]
+    # Score every confirmed lineup hitter so each game receives a useful ranked card.
+    # MAX_CALLS controls only the slate-wide summary, not the per-game detail.
+    base_rows = sorted(base_rows, key=lambda record: record["raw_game"], reverse=True)
 
     hitter_cache: dict[int, pd.DataFrame] = {}
     pitcher_cache: dict[int, pd.DataFrame] = {}
@@ -349,7 +353,7 @@ def main() -> None:
             risk = "Starter-specific contact context unavailable; pitcher adjustment is neutral"
 
         calls.append({
-            "player": row["player"], "team": row["team"], "opponent": row["opponent"], "venue": row["venue"],
+            "game_pk": row["game_pk"], "game": game_labels.get(row["game_pk"], f"{row['team']} vs {row['opponent']}") , "player": row["player"], "team": row["team"], "opponent": row["opponent"], "venue": row["venue"],
             "opposing_starter": row.get("opponent_pitcher"), "batting_order": row["batting_order"], "expected_pa": round(projected_pa, 2),
             "classification": classification, "projected_hr_probability": round(float(game_prob), 4),
             "neutral_hr_probability": round(float(neutral_game), 4), "context_boost": round(float(game_prob - neutral_game), 4),
@@ -377,11 +381,29 @@ def main() -> None:
         final_calls.extend(remaining[:MAX_CALLS - len(final_calls)])
     final_calls.sort(key=lambda item: item["projected_hr_probability"], reverse=True)
 
+    calls_by_game: dict[str, dict[str, Any]] = {}
+    for call in calls:
+        game_id = str(call["game_pk"])
+        if game_id not in calls_by_game:
+            calls_by_game[game_id] = {"game_pk": call["game_pk"], "game": call["game"], "venue": call["venue"], "players": []}
+        calls_by_game[game_id]["players"].append(call)
+    for game_block in calls_by_game.values():
+        game_block["players"].sort(key=lambda item: item["projected_hr_probability"], reverse=True)
+        player_count = len(game_block["players"])
+        # Adaptive depth: shorter cards for small lineups, wider cards only for full games.
+        keep_count = 4 if player_count <= 16 else 6
+        game_block["players"] = game_block["players"][:keep_count]
+        game_block["game_favorite"] = game_block["players"][0]["player"] if game_block["players"] else None
+        under = next((item["player"] for item in game_block["players"] if item["classification"] == "Under-the-radar"), None)
+        game_block["under_the_radar"] = under
+        game_block["context_riser"] = max(game_block["players"], key=lambda item: item["context_boost"])["player"] if game_block["players"] else None
+
     output = {
         "date": TODAY,
-        "model_version": "matchup-adjusted-statcast-2.0",
+        "model_version": "matchup-adjusted-statcast-3.0",
         "method": "Partial-pooling HR/PA model with hitter contact quality, starter Statcast, pitch-mix fit, expected PA, and transparent neutral fallbacks.",
         "calls": final_calls,
+        "games": sorted(calls_by_game.values(), key=lambda item: item["game"]),
         "notes": [
             "No sportsbook lines, betting odds, or public sentiment are used.",
             "Players with limited MLB data are partially pooled using a 100-PA HR-rate prior and Statcast contact-quality blend.",
