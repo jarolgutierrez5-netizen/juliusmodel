@@ -1,1 +1,276 @@
-[]
+[
+  {
+    "date": "2026-08-09",
+    "player": "Junior Caminero",
+    "team": "Tampa Bay Rays",
+    "opponent": "Seattle Mariners",
+    "venue": "T-Mobile Park",
+    "opposing_starter": "Emerson Hancock",
+    "batting_order": 4,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1897,
+    "neutral_hr_probability": 0.197,
+    "context_boost": -0.0073,
+    "hr_per_pa": 0.0478,
+    "confidence": "Medium-low",
+    "signals": [
+      "33 HR in 506 PA",
+      "Batting order 4",
+      "pitch-shape interaction unavailable",
+      "park factor 0.96 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "verified roof status"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-09",
+    "player": "Shohei Ohtani",
+    "team": "Los Angeles Dodgers",
+    "opponent": "Arizona Diamondbacks",
+    "venue": "Chase Field",
+    "opposing_starter": "Eduardo Rodriguez",
+    "batting_order": 1,
+    "expected_pa": 4.49,
+    "classification": "Established",
+    "projected_hr_probability": 0.1773,
+    "neutral_hr_probability": 0.1773,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0425,
+    "confidence": "Medium-low",
+    "signals": [
+      "26 HR in 492 PA",
+      "Batting order 1",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.55
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-09",
+    "player": "Dillon Dingler",
+    "team": "Detroit Tigers",
+    "opponent": "San Francisco Giants",
+    "venue": "Oracle Park",
+    "opposing_starter": "Logan Webb",
+    "batting_order": 3,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.163,
+    "neutral_hr_probability": 0.1779,
+    "context_boost": -0.0149,
+    "hr_per_pa": 0.0406,
+    "confidence": "Medium-low",
+    "signals": [
+      "26 HR in 458 PA",
+      "Batting order 3",
+      "pitch-shape interaction unavailable",
+      "park factor 0.91 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-09",
+    "player": "Dominic Canzone",
+    "team": "Seattle Mariners",
+    "opponent": "Tampa Bay Rays",
+    "venue": "T-Mobile Park",
+    "opposing_starter": "Ian Seymour",
+    "batting_order": 4,
+    "expected_pa": 4.29,
+    "classification": "Under-the-radar",
+    "projected_hr_probability": 0.1607,
+    "neutral_hr_probability": 0.1669,
+    "context_boost": -0.0062,
+    "hr_per_pa": 0.04,
+    "confidence": "Medium-low",
+    "signals": [
+      "18 HR in 340 PA",
+      "Batting order 4",
+      "pitch-shape interaction unavailable",
+      "park factor 0.96 for L-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "verified roof status"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-09",
+    "player": "Victor Mesa Jr.",
+    "team": "Tampa Bay Rays",
+    "opponent": "Seattle Mariners",
+    "venue": "T-Mobile Park",
+    "opposing_starter": "Emerson Hancock",
+    "batting_order": 6,
+    "expected_pa": 4.0,
+    "classification": "Under-the-radar",
+    "projected_hr_probability": 0.1471,
+    "neutral_hr_probability": 0.1529,
+    "context_boost": -0.0058,
+    "hr_per_pa": 0.0391,
+    "confidence": "Medium-low",
+    "signals": [
+      "9 HR in 159 PA",
+      "Batting order 6",
+      "pitch-shape interaction unavailable",
+      "park factor 0.96 for L-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "verified roof status"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  }
+]

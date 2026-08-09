@@ -3,14 +3,23 @@ name: Daily HR tracker
 on:
   workflow_dispatch:
   schedule:
+    # Morning model build: 13:30 UTC every MLB-season day.
     - cron: "30 13 * 3-10 *"
+    # Settlement passes: the following morning plus late-day retries. Repeated runs
+    # are safe and catch west-coast games, delays, doubleheaders, and final corrections.
     - cron: "0 11 * 3-10 *"
+    - cron: "0 17 * 3-10 *"
+    - cron: "0 23 * 3-10 *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: hr-tracker-data-update
+  cancel-in-progress: false
+
 jobs:
-  build-or-settle:
+  update-tracker:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,16 +30,19 @@ jobs:
           python-version: "3.11"
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Build today's daily file
+      - name: Build today's pregame projections
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 13 * 3-10 *'
         run: python scripts/build_daily_model.py
-      - name: Settle yesterday's calls
-        if: github.event.schedule == '0 11 * 3-10 *'
+      - name: Settle every pending daily result
         run: python scripts/settle_results.py
-      - name: Commit generated tracker data
+      - name: Build calibration report
+        run: python scripts/calibration.py
+      - name: Build miss-review report
+        run: python scripts/miss_review.py
+      - name: Commit tracked model outcomes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Update HR tracker data"
+          git diff --cached --quiet || git commit -m "Update HR projections and results"
           git push
