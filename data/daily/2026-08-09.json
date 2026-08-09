@@ -1,0 +1,232 @@
+{
+  "date": "2026-08-09",
+  "model_version": "matchup-adjusted-statcast-2.0",
+  "method": "Partial-pooling HR/PA model with hitter contact quality, starter Statcast, pitch-mix fit, expected PA, and transparent neutral fallbacks.",
+  "calls": [
+    {
+      "player": "Junior Caminero",
+      "team": "Tampa Bay Rays",
+      "opponent": "Seattle Mariners",
+      "venue": "T-Mobile Park",
+      "opposing_starter": "Emerson Hancock",
+      "batting_order": 4,
+      "expected_pa": 4.35,
+      "classification": "Established",
+      "projected_hr_probability": 0.1994,
+      "neutral_hr_probability": 0.1994,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0498,
+      "confidence": "Medium-low",
+      "signals": [
+        "33 HR in 506 PA",
+        "Batting order 4"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "missing_inputs": [
+        "bullpen HR/barrel availability",
+        "handedness-specific park factor",
+        "starter Statcast profile",
+        "verified game-time weather/roof"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Dillon Dingler",
+      "team": "Detroit Tigers",
+      "opponent": "San Francisco Giants",
+      "venue": "Oracle Park",
+      "opposing_starter": "Logan Webb",
+      "batting_order": 3,
+      "expected_pa": 4.35,
+      "classification": "Established",
+      "projected_hr_probability": 0.1801,
+      "neutral_hr_probability": 0.1801,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0446,
+      "confidence": "Medium-low",
+      "signals": [
+        "26 HR in 458 PA",
+        "Batting order 3"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "missing_inputs": [
+        "bullpen HR/barrel availability",
+        "handedness-specific park factor",
+        "starter Statcast profile",
+        "verified game-time weather/roof"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Shohei Ohtani",
+      "team": "Los Angeles Dodgers",
+      "opponent": "Arizona Diamondbacks",
+      "venue": "Chase Field",
+      "opposing_starter": "Eduardo Rodriguez",
+      "batting_order": 1,
+      "expected_pa": 4.55,
+      "classification": "Established",
+      "projected_hr_probability": 0.1795,
+      "neutral_hr_probability": 0.1795,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0425,
+      "confidence": "Medium-low",
+      "signals": [
+        "26 HR in 492 PA",
+        "Batting order 1"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "missing_inputs": [
+        "bullpen HR/barrel availability",
+        "handedness-specific park factor",
+        "starter Statcast profile",
+        "verified game-time weather/roof"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Dominic Canzone",
+      "team": "Seattle Mariners",
+      "opponent": "Tampa Bay Rays",
+      "venue": "T-Mobile Park",
+      "opposing_starter": "Ian Seymour",
+      "batting_order": 4,
+      "expected_pa": 4.35,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.169,
+      "neutral_hr_probability": 0.169,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0417,
+      "confidence": "Medium-low",
+      "signals": [
+        "18 HR in 340 PA",
+        "Batting order 4"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "missing_inputs": [
+        "bullpen HR/barrel availability",
+        "handedness-specific park factor",
+        "starter Statcast profile",
+        "verified game-time weather/roof"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "player": "Wyatt Langford",
+      "team": "Texas Rangers",
+      "opponent": "Baltimore Orioles",
+      "venue": "Globe Life Field",
+      "opposing_starter": "Cade Povich",
+      "batting_order": 1,
+      "expected_pa": 4.55,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1608,
+      "neutral_hr_probability": 0.1608,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0378,
+      "confidence": "Medium-low",
+      "signals": [
+        "13 HR in 279 PA",
+        "Batting order 1"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "missing_inputs": [
+        "bullpen HR/barrel availability",
+        "handedness-specific park factor",
+        "starter Statcast profile",
+        "verified game-time weather/roof"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    }
+  ],
+  "notes": [
+    "No sportsbook lines, betting odds, or public sentiment are used.",
+    "Players with limited MLB data are partially pooled using a 100-PA HR-rate prior and Statcast contact-quality blend.",
+    "Each call includes missing inputs rather than silently substituting stale or guessed data."
+  ]
+}
