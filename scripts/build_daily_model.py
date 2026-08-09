@@ -26,6 +26,12 @@ from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
 
+from bullpen_model import bullpen_multiplier
+from environment_model import environment_context
+from minor_league_prior import make_prior
+from pitch_shape_matchups import pitch_shape_fit
+from playing_time_model import expected_pa as playing_time_expected_pa, starter_exposure_share
+
 import numpy as np
 import pandas as pd
 import requests
@@ -146,19 +152,10 @@ def hitter_pitch_type_fit(hitter_statcast: pd.DataFrame, pitcher_mix: dict[str, 
     return float(total / used) if used else None
 
 
-def expected_pa(slot: int) -> float:
-    if slot == 1:
-        return 4.55
-    if slot <= 4:
-        return 4.35
-    if slot <= 6:
-        return 4.05
-    return 3.80
 
-
-def profile_prior(pa: int, hr: int, features: dict[str, float | None]) -> float:
+def profile_prior(pa: int, hr: int, features: dict[str, float | None], profile_hr_prior: float = LEAGUE_HR_PER_PA, profile_prior_pa: float = HR_PRIOR_PA) -> float:
     """Partially pooled neutral p(HR)/PA with contact-quality support."""
-    shrunk_hr = (hr + HR_PRIOR_PA * LEAGUE_HR_PER_PA) / (pa + HR_PRIOR_PA)
+    shrunk_hr = (hr + profile_prior_pa * profile_hr_prior) / (pa + profile_prior_pa)
     barrel_pa = features.get("barrel_per_pa")
     barrel_component = (barrel_pa if barrel_pa is not None else LEAGUE_BARREL_PER_PA) * 0.55
     # Contact quality can move the profile only modestly; HR totals retain majority weight.
@@ -181,16 +178,6 @@ def starter_context_multiplier(pitcher_features: dict[str, float | None], pitch_
         multiplier += 0.12 * (pitch_fit / LEAGUE_BARREL_PER_PA - 1)
     return float(np.clip(multiplier, 0.82, 1.22))
 
-
-def weather_multiplier(venue: str, bat_side: str, missing_inputs: list[str]) -> float:
-    # Explicitly neutral until a verified game-time weather/roof feed is configured.
-    # This preserves transparency rather than hallucinating outdoor conditions.
-    missing_inputs.append("verified game-time weather/roof")
-    park = PARK_FACTORS.get(venue)
-    if not park:
-        missing_inputs.append("handedness-specific park factor")
-        return 1.0
-    return float(park.get(bat_side, 1.0))
 
 
 def confidence_label(pa: int, statcast_pa: float | None, missing_count: int) -> str:
@@ -278,7 +265,7 @@ def main() -> None:
         if stats["pa"] < 15:
             continue
         raw_p = (stats["hr"] + HR_PRIOR_PA * LEAGUE_HR_PER_PA) / (stats["pa"] + HR_PRIOR_PA)
-        raw_game = 1 - (1 - raw_p) ** expected_pa(row["batting_order"])
+        raw_game = 1 - (1 - raw_p) ** playing_time_expected_pa(batting_order=row["batting_order"], confirmed_lineup=True, is_platoon=False, catcher=False, rookie_pa=stats["pa"])[0]
         base_rows.append({**row, **stats, "raw_game": raw_game})
     base_rows = sorted(base_rows, key=lambda record: record["raw_game"], reverse=True)[:24]
 
@@ -306,13 +293,20 @@ def main() -> None:
         else:
             missing.append("confirmed opposing starter")
 
-        neutral_per_pa = profile_prior(row["pa"], row["hr"], hitter_features)
+        player_prior = make_prior(mlb_pa=row["pa"], max_ev=hitter_features.get("max_ev"), barrel_per_pa=hitter_features.get("barrel_per_pa"))
+        missing.extend(player_prior.missing_inputs)
+        neutral_per_pa = profile_prior(row["pa"], row["hr"], hitter_features, player_prior.hr_per_pa_prior, player_prior.prior_weight_pa)
         starter_mult = starter_context_multiplier(pitcher_features, pfit)
-        park_weather_mult = weather_multiplier(row["venue"], row["bat_side"], missing)
-        # Starter only contributes the expected starter share; bullpen is neutral pending a reliable bullpen feed.
-        context_multiplier = (1 + STARTER_PA_SHARE * (starter_mult - 1)) * park_weather_mult
+        shape_mult, shape_notes = pitch_shape_fit(hitter_frame, pitcher_frame) if pitcher_id and not pitcher_frame.empty else (1.0, ["pitch-shape interaction unavailable"])
+        bullpen = bullpen_multiplier(hr_per_pa_allowed=None, barrel_per_pa_allowed=None, innings_last_3_days=None, batter_side=row["bat_side"])
+        missing.extend(bullpen.missing_inputs)
+        env = environment_context(venue=row["venue"], bat_side=row["bat_side"])
+        missing.extend(env.missing_inputs)
+        projected_pa, playing_time = playing_time_expected_pa(batting_order=row["batting_order"], confirmed_lineup=True, is_platoon=False, catcher=False, rookie_pa=row["pa"])
+        starter_share = starter_exposure_share(projected_innings=5.85, workload_known=False)
+        # Starter and bullpen are separately weighted; all unavailable inputs remain neutral.
+        context_multiplier = (1 + starter_share * (starter_mult * shape_mult - 1)) * (1 + (1 - starter_share) * (bullpen.multiplier - 1)) * env.multiplier
         matchup_per_pa = float(np.clip(neutral_per_pa * context_multiplier, 0.004, 0.140))
-        projected_pa = expected_pa(row["batting_order"])
         neutral_game = 1 - (1 - neutral_per_pa) ** projected_pa
         game_prob = 1 - (1 - matchup_per_pa) ** projected_pa
         classification = classify_under_the_radar(row["pa"], row["batting_order"], game_prob, neutral_per_pa)
@@ -337,7 +331,9 @@ def main() -> None:
             "classification": classification, "projected_hr_probability": round(float(game_prob), 4),
             "neutral_hr_probability": round(float(neutral_game), 4), "context_boost": round(float(game_prob - neutral_game), 4),
             "hr_per_pa": round(float(matchup_per_pa), 4), "confidence": confidence_label(row["pa"], hitter_features.get("sc_pa"), len(missing)),
-            "signals": signals, "primary_risk": risk, "missing_inputs": sorted(set(missing + ["bullpen HR/barrel availability"])),
+            "signals": (signals + player_prior.notes + shape_notes + env.notes + bullpen.notes)[:5], "primary_risk": risk,
+            "playing_time": playing_time, "starter_exposure_share": round(starter_share, 3),
+            "missing_inputs": sorted(set(missing)),
             "features": {key: serialize_number(value) for key, value in hitter_features.items()},
             "pitcher_features": {key: serialize_number(value) for key, value in pitcher_features.items() if key in {"hr_per_pa_statcast", "barrel_per_pa", "fly_ball_rate"}},
             "result": "pending",
