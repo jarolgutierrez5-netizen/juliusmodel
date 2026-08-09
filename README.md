@@ -50,3 +50,20 @@ To change the count in GitHub Actions, set an environment variable for the build
 env:
   MAX_CALLS: "20"
 ```
+
+
+## Trained-model workflow
+
+The dashboard now distinguishes a **transparent prototype** from a trained model. Daily calls use the calibrated model only when `models/hr_pa_calibrated.joblib` exists. Otherwise the site labels the run as `transparent-prototype` and preserves the interpretable feature-based fallback.
+
+To train, first build a historical plate-appearance dataset containing the columns documented at the top of `scripts/train_hr_model.py`. Then run:
+
+```bash
+python scripts/train_hr_model.py --input data/training/pa_features.parquet
+python scripts/backtest_hr_model.py \
+  --input data/training/pa_features.parquet \
+  --model models/hr_pa_calibrated.joblib \
+  --output data/backtest_report.json
+```
+
+The training script uses a **chronological** split and Platt calibration on later data, rather than random splitting. Do not publish calibrated probabilities until `data/training_report.json` and the independent holdout report show acceptable Brier score and probability-bucket calibration.
