@@ -48,7 +48,7 @@ LEAGUE_HR_PER_PA = 0.030
 LEAGUE_BARREL_PER_PA = 0.050
 HR_PRIOR_PA = 100.0
 STARTER_PA_SHARE = 0.65
-MAX_CALLS = 5
+MAX_CALLS = int(os.getenv("MAX_CALLS", "15"))
 
 # Handedness-specific park multipliers. Keep this neutral by default; populate only
 # after validating a current park-factor source. The model logs missing park input.
@@ -343,7 +343,15 @@ def main() -> None:
     # Ensure the final output is short and includes overlooked players when supported.
     under = [call for call in calls if call["classification"] == "Under-the-radar"]
     established = [call for call in calls if call["classification"] == "Established"]
-    final_calls = (established[:3] + under[:3])[:MAX_CALLS]
+    # Keep a diversified view: the top overall profiles plus a meaningful under-the-radar
+    # cohort. The default is 15, overridable with MAX_CALLS in GitHub Actions.
+    established_slots = max(1, round(MAX_CALLS * 0.60))
+    under_slots = max(1, MAX_CALLS - established_slots)
+    final_calls = established[:established_slots] + under[:under_slots]
+    if len(final_calls) < MAX_CALLS:
+        selected_names = {call["player"] for call in final_calls}
+        remaining = [call for call in calls if call["player"] not in selected_names]
+        final_calls.extend(remaining[:MAX_CALLS - len(final_calls)])
     final_calls.sort(key=lambda item: item["projected_hr_probability"], reverse=True)
 
     output = {
