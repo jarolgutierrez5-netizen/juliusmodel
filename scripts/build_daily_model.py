@@ -31,6 +31,7 @@ from environment_model import environment_context
 from minor_league_prior import make_prior
 from pitch_shape_matchups import pitch_shape_fit
 from playing_time_model import expected_pa as playing_time_expected_pa, starter_exposure_share
+from model_scoring import score_probability
 
 import numpy as np
 import pandas as pd
@@ -295,7 +296,29 @@ def main() -> None:
 
         player_prior = make_prior(mlb_pa=row["pa"], max_ev=hitter_features.get("max_ev"), barrel_per_pa=hitter_features.get("barrel_per_pa"))
         missing.extend(player_prior.missing_inputs)
-        neutral_per_pa = profile_prior(row["pa"], row["hr"], hitter_features, player_prior.hr_per_pa_prior, player_prior.prior_weight_pa)
+        prototype_per_pa = profile_prior(row["pa"], row["hr"], hitter_features, player_prior.hr_per_pa_prior, player_prior.prior_weight_pa)
+        trained_feature_row = {
+            "barrels_per_pa": hitter_features.get("barrel_per_pa"),
+            "hard_hit_rate": hitter_features.get("hard_hit_rate"),
+            "max_ev": hitter_features.get("max_ev"),
+            "airborne_pull_rate": hitter_features.get("pulled_air_rate"),
+            "hr_per_pa": row["hr"] / max(row["pa"], 1),
+            "recent_contact_trend": (hitter_features.get("recent_barrel_per_pa") or prototype_per_pa) - (hitter_features.get("barrel_per_pa") or LEAGUE_BARREL_PER_PA),
+            "fly_ball_rate": hitter_features.get("fly_ball_rate"),
+            "strikeout_rate": None,
+            "handedness_advantage": None,
+            "pitcher_hr_per_pa_allowed": pitcher_features.get("hr_per_pa_statcast"),
+            "pitcher_barrel_per_pa_allowed": pitcher_features.get("barrel_per_pa"),
+            "pitch_type_fit": pfit,
+            "starter_fly_ball_rate": pitcher_features.get("fly_ball_rate"),
+            "bullpen_hr_per_pa_allowed": None,
+            "park_factor": None,
+            "weather_factor": None,
+        }
+        trained_per_pa, model_status = score_probability(trained_feature_row)
+        neutral_per_pa = trained_per_pa if trained_per_pa is not None else prototype_per_pa
+        if trained_per_pa is None:
+            missing.append("trained historical model artifact")
         starter_mult = starter_context_multiplier(pitcher_features, pfit)
         shape_mult, shape_notes = pitch_shape_fit(hitter_frame, pitcher_frame) if pitcher_id and not pitcher_frame.empty else (1.0, ["pitch-shape interaction unavailable"])
         bullpen = bullpen_multiplier(hr_per_pa_allowed=None, barrel_per_pa_allowed=None, innings_last_3_days=None, batter_side=row["bat_side"])
@@ -330,7 +353,7 @@ def main() -> None:
             "opposing_starter": row.get("opponent_pitcher"), "batting_order": row["batting_order"], "expected_pa": round(projected_pa, 2),
             "classification": classification, "projected_hr_probability": round(float(game_prob), 4),
             "neutral_hr_probability": round(float(neutral_game), 4), "context_boost": round(float(game_prob - neutral_game), 4),
-            "hr_per_pa": round(float(matchup_per_pa), 4), "confidence": confidence_label(row["pa"], hitter_features.get("sc_pa"), len(missing)),
+            "hr_per_pa": round(float(matchup_per_pa), 4), "model_status": model_status, "prototype_hr_per_pa": round(float(prototype_per_pa), 4), "confidence": confidence_label(row["pa"], hitter_features.get("sc_pa"), len(missing)),
             "signals": (signals + player_prior.notes + shape_notes + env.notes + bullpen.notes)[:5], "primary_risk": risk,
             "playing_time": playing_time, "starter_exposure_share": round(starter_share, 3),
             "missing_inputs": sorted(set(missing)),

@@ -16,6 +16,11 @@
       "neutral_hr_probability": 0.197,
       "context_boost": -0.0073,
       "hr_per_pa": 0.0478,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0498,
       "confidence": "Medium-low",
       "signals": [
         "33 HR in 506 PA",
@@ -36,6 +41,7 @@
         "maximum exit velocity",
         "minor-league HR and PA",
         "starter Statcast profile",
+        "trained historical model artifact",
         "verified roof status"
       ],
       "features": {
@@ -70,6 +76,11 @@
       "neutral_hr_probability": 0.1773,
       "context_boost": 0.0,
       "hr_per_pa": 0.0425,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0425,
       "confidence": "Medium-low",
       "signals": [
         "26 HR in 492 PA",
@@ -89,6 +100,7 @@
         "maximum exit velocity",
         "minor-league HR and PA",
         "starter Statcast profile",
+        "trained historical model artifact",
         "validated handedness-specific park factor",
         "verified roof status"
       ],
@@ -124,6 +136,11 @@
       "neutral_hr_probability": 0.1779,
       "context_boost": -0.0149,
       "hr_per_pa": 0.0406,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0446,
       "confidence": "Medium-low",
       "signals": [
         "26 HR in 458 PA",
@@ -143,7 +160,8 @@
         "handedness-split bullpen HR/barrel rates",
         "maximum exit velocity",
         "minor-league HR and PA",
-        "starter Statcast profile"
+        "starter Statcast profile",
+        "trained historical model artifact"
       ],
       "features": {
         "sc_pa": null,
@@ -177,6 +195,11 @@
       "neutral_hr_probability": 0.1669,
       "context_boost": -0.0062,
       "hr_per_pa": 0.04,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0417,
       "confidence": "Medium-low",
       "signals": [
         "18 HR in 340 PA",
@@ -197,6 +220,7 @@
         "maximum exit velocity",
         "minor-league HR and PA",
         "starter Statcast profile",
+        "trained historical model artifact",
         "verified roof status"
       ],
       "features": {
@@ -231,6 +255,11 @@
       "neutral_hr_probability": 0.1607,
       "context_boost": -0.009,
       "hr_per_pa": 0.0376,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.04,
       "confidence": "Medium-low",
       "signals": [
         "24 HR in 495 PA",
@@ -250,7 +279,8 @@
         "handedness-split bullpen HR/barrel rates",
         "maximum exit velocity",
         "minor-league HR and PA",
-        "starter Statcast profile"
+        "starter Statcast profile",
+        "trained historical model artifact"
       ],
       "features": {
         "sc_pa": null,
@@ -284,6 +314,11 @@
       "neutral_hr_probability": 0.1529,
       "context_boost": -0.0058,
       "hr_per_pa": 0.0391,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0407,
       "confidence": "Medium-low",
       "signals": [
         "9 HR in 159 PA",
@@ -304,6 +339,7 @@
         "maximum exit velocity",
         "minor-league HR and PA",
         "starter Statcast profile",
+        "trained historical model artifact",
         "verified roof status"
       ],
       "features": {
@@ -338,6 +374,11 @@
       "neutral_hr_probability": 0.1383,
       "context_boost": 0.0,
       "hr_per_pa": 0.0341,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0341,
       "confidence": "Medium-low",
       "signals": [
         "19 HR in 496 PA",
@@ -357,6 +398,7 @@
         "maximum exit velocity",
         "minor-league HR and PA",
         "starter Statcast profile",
+        "trained historical model artifact",
         "validated handedness-specific park factor",
         "verified roof status"
       ],
@@ -392,6 +434,11 @@
       "neutral_hr_probability": 0.1508,
       "context_boost": -0.0128,
       "hr_per_pa": 0.0371,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0408,
       "confidence": "Medium-low",
       "signals": [
         "3 HR in 29 PA",
@@ -411,7 +458,8 @@
         "handedness-split bullpen HR/barrel rates",
         "maximum exit velocity",
         "minor-league HR and PA",
-        "starter Statcast profile"
+        "starter Statcast profile",
+        "trained historical model artifact"
       ],
       "features": {
         "sc_pa": null,
@@ -445,6 +493,11 @@
       "neutral_hr_probability": 0.1376,
       "context_boost": 0.0,
       "hr_per_pa": 0.0339,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0339,
       "confidence": "Medium-low",
       "signals": [
         "19 HR in 500 PA",
@@ -464,6 +517,7 @@
         "maximum exit velocity",
         "minor-league HR and PA",
         "starter Statcast profile",
+        "trained historical model artifact",
         "validated handedness-specific park factor",
         "verified roof status"
       ],
@@ -499,6 +553,11 @@
       "neutral_hr_probability": 0.1484,
       "context_boost": -0.0127,
       "hr_per_pa": 0.0396,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0435,
       "confidence": "Medium-low",
       "signals": [
         "4 HR in 39 PA",
@@ -518,7 +577,8 @@
         "handedness-split bullpen HR/barrel rates",
         "maximum exit velocity",
         "minor-league HR and PA",
-        "starter Statcast profile"
+        "starter Statcast profile",
+        "trained historical model artifact"
       ],
       "features": {
         "sc_pa": null,
@@ -552,6 +612,11 @@
       "neutral_hr_probability": 0.1315,
       "context_boost": 0.0,
       "hr_per_pa": 0.0347,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0347,
       "confidence": "Medium-low",
       "signals": [
         "17 HR in 430 PA",
@@ -571,6 +636,7 @@
         "maximum exit velocity",
         "minor-league HR and PA",
         "starter Statcast profile",
+        "trained historical model artifact",
         "validated handedness-specific park factor",
         "verified roof status"
       ],
@@ -606,6 +672,11 @@
       "neutral_hr_probability": 0.143,
       "context_boost": -0.0122,
       "hr_per_pa": 0.0321,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0353,
       "confidence": "Medium-low",
       "signals": [
         "19 HR in 469 PA",
@@ -625,7 +696,8 @@
         "handedness-split bullpen HR/barrel rates",
         "maximum exit velocity",
         "minor-league HR and PA",
-        "starter Statcast profile"
+        "starter Statcast profile",
+        "trained historical model artifact"
       ],
       "features": {
         "sc_pa": null,
@@ -659,6 +731,11 @@
       "neutral_hr_probability": 0.1386,
       "context_boost": -0.0079,
       "hr_per_pa": 0.0307,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0327,
       "confidence": "Medium-low",
       "signals": [
         "11 HR in 301 PA",
@@ -678,7 +755,8 @@
         "handedness-split bullpen HR/barrel rates",
         "maximum exit velocity",
         "minor-league HR and PA",
-        "starter Statcast profile"
+        "starter Statcast profile",
+        "trained historical model artifact"
       ],
       "features": {
         "sc_pa": null,
@@ -712,6 +790,11 @@
       "neutral_hr_probability": 0.1284,
       "context_boost": 0.0,
       "hr_per_pa": 0.0338,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0338,
       "confidence": "Medium-low",
       "signals": [
         "13 HR in 338 PA",
@@ -731,6 +814,7 @@
         "maximum exit velocity",
         "minor-league HR and PA",
         "starter Statcast profile",
+        "trained historical model artifact",
         "validated handedness-specific park factor",
         "verified roof status"
       ],
@@ -766,6 +850,11 @@
       "neutral_hr_probability": 0.1398,
       "context_boost": -0.0119,
       "hr_per_pa": 0.0337,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.037,
       "confidence": "Medium-low",
       "signals": [
         "20 HR in 460 PA",
@@ -785,7 +874,8 @@
         "handedness-split bullpen HR/barrel rates",
         "maximum exit velocity",
         "minor-league HR and PA",
-        "starter Statcast profile"
+        "starter Statcast profile",
+        "trained historical model artifact"
       ],
       "features": {
         "sc_pa": null,
