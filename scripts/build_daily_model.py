@@ -32,6 +32,7 @@ from minor_league_prior import make_prior
 from pitch_shape_matchups import pitch_shape_fit
 from playing_time_model import expected_pa as playing_time_expected_pa, starter_exposure_share
 from model_scoring import score_probability
+from signal_score import signal_score
 
 import numpy as np
 import pandas as pd
@@ -352,6 +353,13 @@ def main() -> None:
         if "starter Statcast profile" in missing:
             risk = "Starter-specific contact context unavailable; pitcher adjustment is neutral"
 
+        signal = signal_score(
+            hitter={**hitter_features, "hr_per_pa": row["hr"] / max(row["pa"], 1)},
+            pitcher=pitcher_features,
+            context_boost=float(game_prob - neutral_game),
+            projected_hr_probability=float(game_prob),
+            expected_pa=float(projected_pa),
+        )
         calls.append({
             "game_pk": row["game_pk"], "game": game_labels.get(row["game_pk"], f"{row['team']} vs {row['opponent']}") , "player": row["player"], "team": row["team"], "opponent": row["opponent"], "venue": row["venue"],
             "opposing_starter": row.get("opponent_pitcher"), "batting_order": row["batting_order"], "expected_pa": round(projected_pa, 2),
@@ -359,6 +367,7 @@ def main() -> None:
             "neutral_hr_probability": round(float(neutral_game), 4), "context_boost": round(float(game_prob - neutral_game), 4),
             "hr_per_pa": round(float(matchup_per_pa), 4), "model_status": model_status, "prototype_hr_per_pa": round(float(prototype_per_pa), 4), "confidence": confidence_label(row["pa"], hitter_features.get("sc_pa"), len(missing)),
             "signals": (signals + player_prior.notes + shape_notes + env.notes + bullpen.notes)[:5], "primary_risk": risk,
+            **signal,
             "playing_time": playing_time, "starter_exposure_share": round(starter_share, 3),
             "missing_inputs": sorted(set(missing)),
             "features": {key: serialize_number(value) for key, value in hitter_features.items()},

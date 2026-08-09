@@ -81,3 +81,10 @@ python scripts/build_historical_dataset.py \
 ```
 
 For a quick integrity check first, use a recent completed 60+ day range. The builder caches monthly raw Statcast downloads in `data/training/raw_statcast/`, then writes a leakage-safe hitter-game feature table.
+
+
+## Signal-score presentation layer
+
+`scripts/signal_score.py` adds a transparent `0–100` signal score alongside the calibrated/prototype HR probability. It uses bounded sub-scores for barrels per PA, hard-hit rate, max EV, airborne pull rate, HR/PA, recent contact trend, pitcher vulnerability, and game context.
+
+The signal score is **not** a probability and does not replace the trained probability model. It is a readable ranking layer with `Strong`, `Watch`, `Long shot`, and `No call` tiers plus feature tags explaining the score.
