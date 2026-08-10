@@ -1,4 +1,27 @@
 {
-  "settled_calls": 0,
-  "message": "No settled calls yet."
+  "settled_calls": 9,
+  "home_runs": 3,
+  "hit_rate": 0.3333333333333333,
+  "brier_score": 0.27269562,
+  "expected_home_runs": 0.9456,
+  "calibration_buckets": [
+    {
+      "bucket": "(-0.001, 0.1]",
+      "calls": 5,
+      "actual_hr_rate": 0.2,
+      "predicted_hr_rate": 0.08184
+    },
+    {
+      "bucket": "(0.1, 0.15]",
+      "calls": 2,
+      "actual_hr_rate": 1.0,
+      "predicted_hr_rate": 0.1154
+    },
+    {
+      "bucket": "(0.15, 0.2]",
+      "calls": 2,
+      "actual_hr_rate": 0.0,
+      "predicted_hr_rate": 0.1528
+    }
+  ]
 }
