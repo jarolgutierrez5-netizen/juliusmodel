@@ -1849,5 +1849,680 @@
     "result": "no_hr",
     "home_runs": 0,
     "settled_from": "official_mlb_boxscore"
+  },
+  {
+    "date": "2026-08-12",
+    "game_pk": 823672,
+    "game": "Baltimore Orioles at Minnesota Twins",
+    "player": "Kody Clemens",
+    "team": "Minnesota Twins",
+    "opponent": "Baltimore Orioles",
+    "venue": "Target Field",
+    "opposing_starter": "Shane Baz",
+    "batting_order": 4,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1568,
+    "neutral_hr_probability": 0.1568,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.039,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.039,
+    "confidence": "Medium-low",
+    "signals": [
+      "20 HR in 424 PA",
+      "Batting order 4",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 53,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 72.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-12",
+    "game_pk": 823672,
+    "game": "Baltimore Orioles at Minnesota Twins",
+    "player": "Royce Lewis",
+    "team": "Minnesota Twins",
+    "opponent": "Baltimore Orioles",
+    "venue": "Target Field",
+    "opposing_starter": "Shane Baz",
+    "batting_order": 2,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1342,
+    "neutral_hr_probability": 0.1342,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.033,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.033,
+    "confidence": "Medium-low",
+    "signals": [
+      "13 HR in 352 PA",
+      "Batting order 2",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 51,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 59.2,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-12",
+    "game_pk": 823672,
+    "game": "Baltimore Orioles at Minnesota Twins",
+    "player": "Josh Bell",
+    "team": "Minnesota Twins",
+    "opponent": "Baltimore Orioles",
+    "venue": "Target Field",
+    "opposing_starter": "Shane Baz",
+    "batting_order": 3,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1287,
+    "neutral_hr_probability": 0.1287,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0316,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0316,
+    "confidence": "Medium-low",
+    "signals": [
+      "16 HR in 470 PA",
+      "Batting order 3",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 51,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 55.4,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-12",
+    "game_pk": 823672,
+    "game": "Baltimore Orioles at Minnesota Twins",
+    "player": "Brooks Lee",
+    "team": "Minnesota Twins",
+    "opponent": "Baltimore Orioles",
+    "venue": "Target Field",
+    "opposing_starter": "Shane Baz",
+    "batting_order": 5,
+    "expected_pa": 4.0,
+    "classification": "Established",
+    "projected_hr_probability": 0.1261,
+    "neutral_hr_probability": 0.1261,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0332,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0332,
+    "confidence": "Medium-low",
+    "signals": [
+      "17 HR in 462 PA",
+      "Batting order 5",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 50,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 59.1,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-12",
+    "game_pk": 823672,
+    "game": "Baltimore Orioles at Minnesota Twins",
+    "player": "Trevor Larnach",
+    "team": "Minnesota Twins",
+    "opponent": "Baltimore Orioles",
+    "venue": "Target Field",
+    "opposing_starter": "Shane Baz",
+    "batting_order": 1,
+    "expected_pa": 4.49,
+    "classification": "Established",
+    "projected_hr_probability": 0.1203,
+    "neutral_hr_probability": 0.1203,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0282,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0282,
+    "confidence": "Medium-low",
+    "signals": [
+      "10 HR in 357 PA",
+      "Batting order 1",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 50,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 47.3,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.55
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-12",
+    "game_pk": 823672,
+    "game": "Baltimore Orioles at Minnesota Twins",
+    "player": "Ryan Kreidler",
+    "team": "Minnesota Twins",
+    "opponent": "Baltimore Orioles",
+    "venue": "Target Field",
+    "opposing_starter": "Shane Baz",
+    "batting_order": 9,
+    "expected_pa": 3.68,
+    "classification": "Established",
+    "projected_hr_probability": 0.0937,
+    "neutral_hr_probability": 0.0937,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0264,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0264,
+    "confidence": "Medium-low",
+    "signals": [
+      "5 HR in 209 PA",
+      "Batting order 9",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 48,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 41.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-12",
+    "game_pk": 823672,
+    "game": "Baltimore Orioles at Minnesota Twins",
+    "player": "Victor Caratini",
+    "team": "Minnesota Twins",
+    "opponent": "Baltimore Orioles",
+    "venue": "Target Field",
+    "opposing_starter": "Shane Baz",
+    "batting_order": 7,
+    "expected_pa": 3.68,
+    "classification": "Established",
+    "projected_hr_probability": 0.0883,
+    "neutral_hr_probability": 0.0883,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0248,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0248,
+    "confidence": "Medium-low",
+    "signals": [
+      "7 HR in 323 PA",
+      "Batting order 7",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 47,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 38.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-12",
+    "game_pk": 823672,
+    "game": "Baltimore Orioles at Minnesota Twins",
+    "player": "Luke Keaschall",
+    "team": "Minnesota Twins",
+    "opponent": "Baltimore Orioles",
+    "venue": "Target Field",
+    "opposing_starter": "Shane Baz",
+    "batting_order": 6,
+    "expected_pa": 4.0,
+    "classification": "Established",
+    "projected_hr_probability": 0.0772,
+    "neutral_hr_probability": 0.0772,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0199,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0199,
+    "confidence": "Medium-low",
+    "signals": [
+      "6 HR in 441 PA",
+      "Batting order 6",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 46,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 28.1,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-08-12",
+    "game_pk": 823672,
+    "game": "Baltimore Orioles at Minnesota Twins",
+    "player": "Alan Roden",
+    "team": "Minnesota Twins",
+    "opponent": "Baltimore Orioles",
+    "venue": "Target Field",
+    "opposing_starter": "Shane Baz",
+    "batting_order": 8,
+    "expected_pa": 3.61,
+    "classification": "Established",
+    "projected_hr_probability": 0.0748,
+    "neutral_hr_probability": 0.0748,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0213,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0213,
+    "confidence": "Medium-low",
+    "signals": [
+      "0 HR in 61 PA",
+      "Batting order 8",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 45,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 10.0,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.11000000000000001,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
   }
 ]
