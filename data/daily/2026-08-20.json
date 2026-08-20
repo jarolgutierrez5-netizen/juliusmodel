@@ -1,0 +1,1313 @@
+{
+  "date": "2026-08-20",
+  "model_version": "matchup-adjusted-statcast-3.0",
+  "method": "Partial-pooling HR/PA model with hitter contact quality, starter Statcast, pitch-mix fit, expected PA, and transparent neutral fallbacks.",
+  "calls": [
+    {
+      "game_pk": 822934,
+      "game": "Toronto Blue Jays at Tampa Bay Rays",
+      "player": "Junior Caminero",
+      "team": "Tampa Bay Rays",
+      "opponent": "Toronto Blue Jays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Shane Bieber",
+      "batting_order": 2,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1943,
+      "neutral_hr_probability": 0.1943,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0491,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0491,
+      "confidence": "Medium-low",
+      "signals": [
+        "35 HR in 551 PA",
+        "Batting order 2",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 56,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 94.7,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824474,
+      "game": "St. Louis Cardinals at Cincinnati Reds",
+      "player": "Sal Stewart",
+      "team": "Cincinnati Reds",
+      "opponent": "St. Louis Cardinals",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Michael McGreevy",
+      "batting_order": 2,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1707,
+      "neutral_hr_probability": 0.1632,
+      "context_boost": 0.0076,
+      "hr_per_pa": 0.0427,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0407,
+      "confidence": "Medium-low",
+      "signals": [
+        "27 HR in 548 PA",
+        "Batting order 2",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 55,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 75.7,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824474,
+      "game": "St. Louis Cardinals at Cincinnati Reds",
+      "player": "JJ Bleday",
+      "team": "Cincinnati Reds",
+      "opponent": "St. Louis Cardinals",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Michael McGreevy",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1675,
+      "neutral_hr_probability": 0.16,
+      "context_boost": 0.0074,
+      "hr_per_pa": 0.0418,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0398,
+      "confidence": "Medium-low",
+      "signals": [
+        "20 HR in 410 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for L-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 55,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 75.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824474,
+      "game": "St. Louis Cardinals at Cincinnati Reds",
+      "player": "Jordan Walker",
+      "team": "St. Louis Cardinals",
+      "opponent": "Cincinnati Reds",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Brady Singer",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1657,
+      "neutral_hr_probability": 0.1583,
+      "context_boost": 0.0074,
+      "hr_per_pa": 0.0413,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0394,
+      "confidence": "Medium-low",
+      "signals": [
+        "25 HR in 530 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 55,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 72.9,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824474,
+      "game": "St. Louis Cardinals at Cincinnati Reds",
+      "player": "Joshua B\u00e1ez",
+      "team": "St. Louis Cardinals",
+      "opponent": "Cincinnati Reds",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Brady Singer",
+      "batting_order": 5,
+      "expected_pa": 3.92,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1616,
+      "neutral_hr_probability": 0.1544,
+      "context_boost": 0.0072,
+      "hr_per_pa": 0.0439,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0418,
+      "confidence": "Medium-low",
+      "signals": [
+        "3 HR in 25 PA",
+        "Batting order 5",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 55,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 100.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824474,
+      "game": "St. Louis Cardinals at Cincinnati Reds",
+      "player": "Elly De La Cruz",
+      "team": "Cincinnati Reds",
+      "opponent": "St. Louis Cardinals",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Michael McGreevy",
+      "batting_order": 1,
+      "expected_pa": 4.49,
+      "classification": "Established",
+      "projected_hr_probability": 0.1514,
+      "neutral_hr_probability": 0.1514,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0359,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0359,
+      "confidence": "Medium-low",
+      "signals": [
+        "20 HR in 482 PA",
+        "Batting order 1",
+        "pitch-shape interaction unavailable",
+        "park factor 1.00 for S-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 52,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 65.3,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.55
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824395,
+      "game": "San Francisco Giants at Cleveland Guardians",
+      "player": "Nathaniel Lowe",
+      "team": "Cleveland Guardians",
+      "opponent": "San Francisco Giants",
+      "venue": "Progressive Field",
+      "opposing_starter": "Landen Roupp",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1486,
+      "neutral_hr_probability": 0.1486,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0368,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0368,
+      "confidence": "Medium-low",
+      "signals": [
+        "14 HR in 317 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 52,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 68.9,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824474,
+      "game": "St. Louis Cardinals at Cincinnati Reds",
+      "player": "Alec Burleson",
+      "team": "St. Louis Cardinals",
+      "opponent": "Cincinnati Reds",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Brady Singer",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1466,
+      "neutral_hr_probability": 0.14,
+      "context_boost": 0.0066,
+      "hr_per_pa": 0.0363,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0345,
+      "confidence": "Medium-low",
+      "signals": [
+        "21 HR in 539 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for L-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 53,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 61.9,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824474,
+      "game": "St. Louis Cardinals at Cincinnati Reds",
+      "player": "Tyler Stephenson",
+      "team": "Cincinnati Reds",
+      "opponent": "St. Louis Cardinals",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Michael McGreevy",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1345,
+      "neutral_hr_probability": 0.1285,
+      "context_boost": 0.0061,
+      "hr_per_pa": 0.0331,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0315,
+      "confidence": "Medium-low",
+      "signals": [
+        "12 HR in 351 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 52,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 55.6,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 822934,
+      "game": "Toronto Blue Jays at Tampa Bay Rays",
+      "player": "Yandy D\u00edaz",
+      "team": "Tampa Bay Rays",
+      "opponent": "Toronto Blue Jays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Shane Bieber",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1318,
+      "neutral_hr_probability": 0.1318,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0324,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0324,
+      "confidence": "Medium-low",
+      "signals": [
+        "19 HR in 538 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 51,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 57.1,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824474,
+      "game": "St. Louis Cardinals at Cincinnati Reds",
+      "player": "JJ Wetherholt",
+      "team": "St. Louis Cardinals",
+      "opponent": "Cincinnati Reds",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Brady Singer",
+      "batting_order": 1,
+      "expected_pa": 4.49,
+      "classification": "Established",
+      "projected_hr_probability": 0.1281,
+      "neutral_hr_probability": 0.1223,
+      "context_boost": 0.0058,
+      "hr_per_pa": 0.0301,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0286,
+      "confidence": "Medium-low",
+      "signals": [
+        "16 HR in 552 PA",
+        "Batting order 1",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for L-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 51,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 48.6,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.55
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824395,
+      "game": "San Francisco Giants at Cleveland Guardians",
+      "player": "Angel Mart\u00ednez",
+      "team": "Cleveland Guardians",
+      "opponent": "San Francisco Giants",
+      "venue": "Progressive Field",
+      "opposing_starter": "Landen Roupp",
+      "batting_order": 6,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.1277,
+      "neutral_hr_probability": 0.1277,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0336,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0336,
+      "confidence": "Medium-low",
+      "signals": [
+        "12 HR in 314 PA",
+        "Batting order 6",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 51,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 61.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 822934,
+      "game": "Toronto Blue Jays at Tampa Bay Rays",
+      "player": "Jonny DeLuca",
+      "team": "Tampa Bay Rays",
+      "opponent": "Toronto Blue Jays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Shane Bieber",
+      "batting_order": 6,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.115,
+      "neutral_hr_probability": 0.115,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0301,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0301,
+      "confidence": "Medium-low",
+      "signals": [
+        "8 HR in 252 PA",
+        "Batting order 6",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 50,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 52.3,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824474,
+      "game": "St. Louis Cardinals at Cincinnati Reds",
+      "player": "Matt McLain",
+      "team": "Cincinnati Reds",
+      "opponent": "St. Louis Cardinals",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Michael McGreevy",
+      "batting_order": 5,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.1149,
+      "neutral_hr_probability": 0.1097,
+      "context_boost": 0.0052,
+      "hr_per_pa": 0.0301,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0287,
+      "confidence": "Medium-low",
+      "signals": [
+        "11 HR in 380 PA",
+        "Batting order 5",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 50,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 48.6,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 822934,
+      "game": "Toronto Blue Jays at Tampa Bay Rays",
+      "player": "Jonathan Aranda",
+      "team": "Tampa Bay Rays",
+      "opponent": "Toronto Blue Jays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Shane Bieber",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1145,
+      "neutral_hr_probability": 0.1145,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0279,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0279,
+      "confidence": "Medium-low",
+      "signals": [
+        "15 HR in 540 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 50,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 47.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    }
+  ],
+  "games": [
+    {
+      "game_pk": 824395,
+      "game": "San Francisco Giants at Cleveland Guardians",
+      "venue": "Progressive Field",
+      "players": [
+        {
+          "game_pk": 824395,
+          "game": "San Francisco Giants at Cleveland Guardians",
+          "player": "Nathaniel Lowe",
+          "team": "Cleveland Guardians",
+          "opponent": "San Francisco Giants",
+          "venue": "Progressive Field",
+          "opposing_starter": "Landen Roupp",
+          "batting_order": 4,
+          "expected_pa": 4.29,
+          "classification": "Under-the-radar",
+          "projected_hr_probability": 0.1486,
+          "neutral_hr_probability": 0.1486,
+          "context_boost": 0.0,
+          "hr_per_pa": 0.0368,
+          "model_status": {
+            "mode": "transparent-prototype",
+            "reason": "No trained artifact found."
+          },
+          "prototype_hr_per_pa": 0.0368,
+          "confidence": "Medium-low",
+          "signals": [
+            "14 HR in 317 PA",
+            "Batting order 4",
+            "pitch-shape interaction unavailable"
+          ],
+          "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+          "signal_score": 52,
+          "signal_tier": "No call",
+          "signal_components": {
+            "barrels_per_pa": 50.0,
+            "hard_hit_rate": 50.0,
+            "max_exit_velocity": 50.0,
+            "airborne_pull_rate": 50.0,
+            "hr_per_pa": 68.9,
+            "recent_contact_trend": 50.0
+          },
+          "signal_tags": [
+            "balanced power profile"
+          ],
+          "playing_time": {
+            "start_probability": 1.0,
+            "substitution_risk": 0.03,
+            "lineup_pa_baseline": 4.35
+          },
+          "starter_exposure_share": 0.65,
+          "missing_inputs": [
+            "game-time temperature and wind",
+            "handedness-split bullpen HR/barrel rates",
+            "maximum exit velocity",
+            "minor-league HR and PA",
+            "starter Statcast profile",
+            "trained historical model artifact",
+            "validated handedness-specific park factor"
+          ],
+          "features": {
+            "sc_pa": null,
+            "barrel_per_pa": null,
+            "barrel_rate": null,
+            "avg_ev": null,
+            "max_ev": null,
+            "hard_hit_rate": null,
+            "fly_ball_rate": null,
+            "recent_barrel_per_pa": null,
+            "hr_per_pa_statcast": null,
+            "pulled_air_rate": null
+          },
+          "pitcher_features": {
+            "barrel_per_pa": null,
+            "fly_ball_rate": null,
+            "hr_per_pa_statcast": null
+          },
+          "result": "pending"
+        }
+      ],
+      "game_favorite": "Nathaniel Lowe",
+      "under_the_radar": "Nathaniel Lowe",
+      "secondary_under_the_radar": null,
+      "tertiary_under_the_radar": null,
+      "context_riser": "Nathaniel Lowe",
+      "status": "qualifying call",
+      "pass_reason": null
+    },
+    {
+      "game_pk": 824474,
+      "game": "St. Louis Cardinals at Cincinnati Reds",
+      "venue": "Great American Ball Park",
+      "players": [
+        {
+          "game_pk": 824474,
+          "game": "St. Louis Cardinals at Cincinnati Reds",
+          "player": "Joshua B\u00e1ez",
+          "team": "St. Louis Cardinals",
+          "opponent": "Cincinnati Reds",
+          "venue": "Great American Ball Park",
+          "opposing_starter": "Brady Singer",
+          "batting_order": 5,
+          "expected_pa": 3.92,
+          "classification": "Under-the-radar",
+          "projected_hr_probability": 0.1616,
+          "neutral_hr_probability": 0.1544,
+          "context_boost": 0.0072,
+          "hr_per_pa": 0.0439,
+          "model_status": {
+            "mode": "transparent-prototype",
+            "reason": "No trained artifact found."
+          },
+          "prototype_hr_per_pa": 0.0418,
+          "confidence": "Medium-low",
+          "signals": [
+            "3 HR in 25 PA",
+            "Batting order 5",
+            "pitch-shape interaction unavailable",
+            "park factor 1.05 for R-handed power"
+          ],
+          "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+          "signal_score": 55,
+          "signal_tier": "No call",
+          "signal_components": {
+            "barrels_per_pa": 50.0,
+            "hard_hit_rate": 50.0,
+            "max_exit_velocity": 50.0,
+            "airborne_pull_rate": 50.0,
+            "hr_per_pa": 100.0,
+            "recent_contact_trend": 50.0
+          },
+          "signal_tags": [
+            "balanced power profile"
+          ],
+          "playing_time": {
+            "start_probability": 1.0,
+            "substitution_risk": 0.07,
+            "lineup_pa_baseline": 4.05
+          },
+          "starter_exposure_share": 0.65,
+          "missing_inputs": [
+            "game-time temperature and wind",
+            "handedness-split bullpen HR/barrel rates",
+            "maximum exit velocity",
+            "minor-league HR and PA",
+            "starter Statcast profile",
+            "trained historical model artifact"
+          ],
+          "features": {
+            "sc_pa": null,
+            "barrel_per_pa": null,
+            "barrel_rate": null,
+            "avg_ev": null,
+            "max_ev": null,
+            "hard_hit_rate": null,
+            "fly_ball_rate": null,
+            "recent_barrel_per_pa": null,
+            "hr_per_pa_statcast": null,
+            "pulled_air_rate": null
+          },
+          "pitcher_features": {
+            "barrel_per_pa": null,
+            "fly_ball_rate": null,
+            "hr_per_pa_statcast": null
+          },
+          "result": "pending"
+        }
+      ],
+      "game_favorite": "Sal Stewart",
+      "under_the_radar": "Joshua B\u00e1ez",
+      "secondary_under_the_radar": null,
+      "tertiary_under_the_radar": null,
+      "context_riser": "Sal Stewart",
+      "status": "qualifying call",
+      "pass_reason": null
+    },
+    {
+      "game_pk": 822934,
+      "game": "Toronto Blue Jays at Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "players": [],
+      "game_favorite": "Junior Caminero",
+      "under_the_radar": null,
+      "secondary_under_the_radar": null,
+      "tertiary_under_the_radar": null,
+      "context_riser": "Junior Caminero",
+      "status": "pass",
+      "pass_reason": "No non-star hitter cleared the 12% probability and support-signal threshold."
+    }
+  ],
+  "notes": [
+    "No sportsbook lines, betting odds, or public sentiment are used.",
+    "Players with limited MLB data are partially pooled using a 100-PA HR-rate prior and Statcast contact-quality blend.",
+    "Each call includes missing inputs rather than silently substituting stale or guessed data."
+  ]
+}
