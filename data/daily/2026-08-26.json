@@ -1,0 +1,693 @@
+{
+  "date": "2026-08-26",
+  "model_version": "matchup-adjusted-statcast-3.0",
+  "method": "Partial-pooling HR/PA model with hitter contact quality, starter Statcast, pitch-mix fit, expected PA, and transparent neutral fallbacks.",
+  "calls": [
+    {
+      "game_pk": 824234,
+      "game": "Tampa Bay Rays at Detroit Tigers",
+      "player": "Dillon Dingler",
+      "team": "Detroit Tigers",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Comerica Park",
+      "opposing_starter": "Freddy Peralta",
+      "batting_order": 5,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.1546,
+      "neutral_hr_probability": 0.1546,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0412,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0412,
+      "confidence": "Medium-low",
+      "signals": [
+        "26 HR in 517 PA",
+        "Batting order 5",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 53,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 77.1,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824234,
+      "game": "Tampa Bay Rays at Detroit Tigers",
+      "player": "Brett Callahan",
+      "team": "Detroit Tigers",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Comerica Park",
+      "opposing_starter": "Freddy Peralta",
+      "batting_order": 1,
+      "expected_pa": 4.41,
+      "classification": "Established",
+      "projected_hr_probability": 0.1304,
+      "neutral_hr_probability": 0.1304,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0312,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0312,
+      "confidence": "Medium-low",
+      "signals": [
+        "1 HR in 22 PA",
+        "Batting order 1",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 52,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 70.6,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 4.55
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824234,
+      "game": "Tampa Bay Rays at Detroit Tigers",
+      "player": "Spencer Torkelson",
+      "team": "Detroit Tigers",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Comerica Park",
+      "opposing_starter": "Freddy Peralta",
+      "batting_order": 7,
+      "expected_pa": 3.68,
+      "classification": "Established",
+      "projected_hr_probability": 0.1213,
+      "neutral_hr_probability": 0.1213,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0345,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0345,
+      "confidence": "Medium-low",
+      "signals": [
+        "20 HR in 513 PA",
+        "Batting order 7",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 50,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 62.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824234,
+      "game": "Tampa Bay Rays at Detroit Tigers",
+      "player": "Gleyber Torres",
+      "team": "Detroit Tigers",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Comerica Park",
+      "opposing_starter": "Freddy Peralta",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1075,
+      "neutral_hr_probability": 0.1075,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0262,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0262,
+      "confidence": "Medium-low",
+      "signals": [
+        "8 HR in 330 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 49,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 42.3,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824234,
+      "game": "Tampa Bay Rays at Detroit Tigers",
+      "player": "Colt Keith",
+      "team": "Detroit Tigers",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Comerica Park",
+      "opposing_starter": "Freddy Peralta",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1066,
+      "neutral_hr_probability": 0.1066,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0259,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0259,
+      "confidence": "Medium-low",
+      "signals": [
+        "9 HR in 375 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 49,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 42.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824234,
+      "game": "Tampa Bay Rays at Detroit Tigers",
+      "player": "Kevin McGonigle",
+      "team": "Detroit Tigers",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Comerica Park",
+      "opposing_starter": "Freddy Peralta",
+      "batting_order": 2,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1062,
+      "neutral_hr_probability": 0.1062,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0258,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0258,
+      "confidence": "Medium-low",
+      "signals": [
+        "14 HR in 577 PA",
+        "Batting order 2",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 49,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 42.4,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824234,
+      "game": "Tampa Bay Rays at Detroit Tigers",
+      "player": "Hao-Yu Lee",
+      "team": "Detroit Tigers",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Comerica Park",
+      "opposing_starter": "Freddy Peralta",
+      "batting_order": 9,
+      "expected_pa": 3.68,
+      "classification": "Established",
+      "projected_hr_probability": 0.1009,
+      "neutral_hr_probability": 0.1009,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0285,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0285,
+      "confidence": "Medium-low",
+      "signals": [
+        "7 HR in 246 PA",
+        "Batting order 9",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 48,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 47.9,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824234,
+      "game": "Tampa Bay Rays at Detroit Tigers",
+      "player": "Max Clark",
+      "team": "Detroit Tigers",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Comerica Park",
+      "opposing_starter": "Freddy Peralta",
+      "batting_order": 8,
+      "expected_pa": 3.61,
+      "classification": "Established",
+      "projected_hr_probability": 0.0924,
+      "neutral_hr_probability": 0.0924,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0265,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0265,
+      "confidence": "Medium-low",
+      "signals": [
+        "2 HR in 92 PA",
+        "Batting order 8",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 47,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 39.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.11000000000000001,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824234,
+      "game": "Tampa Bay Rays at Detroit Tigers",
+      "player": "Zach McKinstry",
+      "team": "Detroit Tigers",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Comerica Park",
+      "opposing_starter": "Freddy Peralta",
+      "batting_order": 6,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.073,
+      "neutral_hr_probability": 0.073,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0188,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0188,
+      "confidence": "Medium-low",
+      "signals": [
+        "4 HR in 365 PA",
+        "Batting order 6",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 46,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 24.6,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    }
+  ],
+  "games": [
+    {
+      "game_pk": 824234,
+      "game": "Tampa Bay Rays at Detroit Tigers",
+      "venue": "Comerica Park",
+      "players": [],
+      "game_favorite": "Dillon Dingler",
+      "under_the_radar": null,
+      "secondary_under_the_radar": null,
+      "tertiary_under_the_radar": null,
+      "context_riser": "Dillon Dingler",
+      "status": "pass",
+      "pass_reason": "No non-star hitter cleared the 12% probability and support-signal threshold."
+    }
+  ],
+  "notes": [
+    "No sportsbook lines, betting odds, or public sentiment are used.",
+    "Players with limited MLB data are partially pooled using a 100-PA HR-rate prior and Statcast contact-quality blend.",
+    "Each call includes missing inputs rather than silently substituting stale or guessed data."
+  ]
+}
