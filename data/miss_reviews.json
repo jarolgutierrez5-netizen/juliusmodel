@@ -1157,6 +1157,21 @@
   },
   {
     "date": "2026-08-28",
+    "player": "Kyle Schwarber",
+    "projection": 0.2168,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-08-28",
     "player": "Ben Rice",
     "projection": 0.2052,
     "review_label": "high-input-uncertainty",
@@ -1213,6 +1228,21 @@
       "trained historical model artifact",
       "validated handedness-specific park factor",
       "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "player": "Pete Alonso",
+    "projection": 0.1766,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
     ]
   },
   {
@@ -1278,6 +1308,21 @@
     "date": "2026-08-28",
     "player": "Miguel Vargas",
     "projection": 0.1655,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "player": "Coby Mayo",
+    "projection": 0.1644,
     "review_label": "high-input-uncertainty",
     "missing_inputs": [
       "game-time temperature and wind",
