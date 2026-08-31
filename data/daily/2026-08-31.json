@@ -1,0 +1,1724 @@
+{
+  "date": "2026-08-31",
+  "model_version": "matchup-adjusted-statcast-3.0",
+  "method": "Partial-pooling HR/PA model with hitter contact quality, starter Statcast, pitch-mix fit, expected PA, and transparent neutral fallbacks.",
+  "calls": [
+    {
+      "game_pk": 822932,
+      "game": "New York Mets at Tampa Bay Rays",
+      "player": "Junior Caminero",
+      "team": "Tampa Bay Rays",
+      "opponent": "New York Mets",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Robert Stock",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1927,
+      "neutral_hr_probability": 0.1927,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0487,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0487,
+      "confidence": "Medium-low",
+      "signals": [
+        "37 HR in 593 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 56,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 93.2,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824911,
+      "game": "San Francisco Giants at Atlanta Braves",
+      "player": "Matt Olson",
+      "team": "Atlanta Braves",
+      "opponent": "San Francisco Giants",
+      "venue": "Truist Park",
+      "opposing_starter": "Anthony Molina",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.192,
+      "neutral_hr_probability": 0.192,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0485,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0485,
+      "confidence": "Medium-low",
+      "signals": [
+        "37 HR in 596 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 56,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 92.8,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824473,
+      "game": "San Diego Padres at Cincinnati Reds",
+      "player": "Sal Stewart",
+      "team": "Cincinnati Reds",
+      "opponent": "San Diego Padres",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Michael King",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1779,
+      "neutral_hr_probability": 0.17,
+      "context_boost": 0.0079,
+      "hr_per_pa": 0.0446,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0425,
+      "confidence": "Medium-low",
+      "signals": [
+        "31 HR in 595 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 56,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 79.5,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 822689,
+      "game": "Miami Marlins at Washington Nationals",
+      "player": "CJ Abrams",
+      "team": "Washington Nationals",
+      "opponent": "Miami Marlins",
+      "venue": "Nationals Park",
+      "opposing_starter": "Ryan Gusto",
+      "batting_order": 1,
+      "expected_pa": 4.49,
+      "classification": "Established",
+      "projected_hr_probability": 0.1749,
+      "neutral_hr_probability": 0.1749,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0419,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0419,
+      "confidence": "Medium-low",
+      "signals": [
+        "29 HR in 565 PA",
+        "Batting order 1",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 54,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 78.4,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.55
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824911,
+      "game": "San Francisco Giants at Atlanta Braves",
+      "player": "Rafael Devers",
+      "team": "San Francisco Giants",
+      "opponent": "Atlanta Braves",
+      "venue": "Truist Park",
+      "opposing_starter": "Bryce Elder",
+      "batting_order": 2,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1648,
+      "neutral_hr_probability": 0.1648,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0411,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0411,
+      "confidence": "Medium-low",
+      "signals": [
+        "29 HR in 582 PA",
+        "Batting order 2",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 54,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 76.4,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824473,
+      "game": "San Diego Padres at Cincinnati Reds",
+      "player": "Ty France",
+      "team": "San Diego Padres",
+      "opponent": "Cincinnati Reds",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Brady Singer",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1632,
+      "neutral_hr_probability": 0.156,
+      "context_boost": 0.0073,
+      "hr_per_pa": 0.0407,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0387,
+      "confidence": "Medium-low",
+      "signals": [
+        "19 HR in 405 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 54,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 72.6,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824473,
+      "game": "San Diego Padres at Cincinnati Reds",
+      "player": "JJ Bleday",
+      "team": "Cincinnati Reds",
+      "opponent": "San Diego Padres",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Michael King",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1624,
+      "neutral_hr_probability": 0.1551,
+      "context_boost": 0.0072,
+      "hr_per_pa": 0.0404,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0385,
+      "confidence": "Medium-low",
+      "signals": [
+        "21 HR in 455 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for L-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 54,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 71.5,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824473,
+      "game": "San Diego Padres at Cincinnati Reds",
+      "player": "H\u00e9ctor Rodr\u00edguez",
+      "team": "Cincinnati Reds",
+      "opponent": "San Diego Padres",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Michael King",
+      "batting_order": 1,
+      "expected_pa": 4.41,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1619,
+      "neutral_hr_probability": 0.1547,
+      "context_boost": 0.0072,
+      "hr_per_pa": 0.0393,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0374,
+      "confidence": "Medium-low",
+      "signals": [
+        "4 HR in 68 PA",
+        "Batting order 1",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for L-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 55,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 88.4,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 4.55
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 822689,
+      "game": "Miami Marlins at Washington Nationals",
+      "player": "Andr\u00e9s Chaparro",
+      "team": "Washington Nationals",
+      "opponent": "Miami Marlins",
+      "venue": "Nationals Park",
+      "opposing_starter": "Ryan Gusto",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1596,
+      "neutral_hr_probability": 0.1596,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0397,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0397,
+      "confidence": "Medium-low",
+      "signals": [
+        "9 HR in 167 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 54,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 81.9,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824719,
+      "game": "Seattle Mariners at Boston Red Sox",
+      "player": "Dominic Canzone",
+      "team": "Seattle Mariners",
+      "opponent": "Boston Red Sox",
+      "venue": "Fenway Park",
+      "opposing_starter": "Payton Tolle",
+      "batting_order": 2,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.158,
+      "neutral_hr_probability": 0.158,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0393,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0393,
+      "confidence": "Medium-low",
+      "signals": [
+        "20 HR in 419 PA",
+        "Batting order 2",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 53,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 73.6,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824911,
+      "game": "San Francisco Giants at Atlanta Braves",
+      "player": "Drake Baldwin",
+      "team": "Atlanta Braves",
+      "opponent": "San Francisco Giants",
+      "venue": "Truist Park",
+      "opposing_starter": "Anthony Molina",
+      "batting_order": 1,
+      "expected_pa": 4.49,
+      "classification": "Established",
+      "projected_hr_probability": 0.1564,
+      "neutral_hr_probability": 0.1564,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0372,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0372,
+      "confidence": "Medium-low",
+      "signals": [
+        "22 HR in 505 PA",
+        "Batting order 1",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 53,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 68.1,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.55
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 824473,
+      "game": "San Diego Padres at Cincinnati Reds",
+      "player": "Eugenio Su\u00e1rez",
+      "team": "Cincinnati Reds",
+      "opponent": "San Diego Padres",
+      "venue": "Great American Ball Park",
+      "opposing_starter": "Michael King",
+      "batting_order": 6,
+      "expected_pa": 4.0,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1542,
+      "neutral_hr_probability": 0.1473,
+      "context_boost": 0.0069,
+      "hr_per_pa": 0.041,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0391,
+      "confidence": "Medium-low",
+      "signals": [
+        "20 HR in 422 PA",
+        "Batting order 6",
+        "pitch-shape interaction unavailable",
+        "park factor 1.05 for R-handed power"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 54,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 73.2,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 822689,
+      "game": "Miami Marlins at Washington Nationals",
+      "player": "Abimelec Ortiz",
+      "team": "Washington Nationals",
+      "opponent": "Miami Marlins",
+      "venue": "Nationals Park",
+      "opposing_starter": "Ryan Gusto",
+      "batting_order": 2,
+      "expected_pa": 4.21,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1507,
+      "neutral_hr_probability": 0.1507,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.038,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.038,
+      "confidence": "Medium-low",
+      "signals": [
+        "5 HR in 88 PA",
+        "Batting order 2",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 53,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 85.8,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 822932,
+      "game": "New York Mets at Tampa Bay Rays",
+      "player": "Francisco Lindor",
+      "team": "New York Mets",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Ian Seymour",
+      "batting_order": 1,
+      "expected_pa": 4.49,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1473,
+      "neutral_hr_probability": 0.1473,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0349,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0349,
+      "confidence": "Medium-low",
+      "signals": [
+        "14 HR in 347 PA",
+        "Batting order 1",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 52,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 63.8,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.55
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 822932,
+      "game": "New York Mets at Tampa Bay Rays",
+      "player": "Mark Vientos",
+      "team": "New York Mets",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Ian Seymour",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1453,
+      "neutral_hr_probability": 0.1453,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0359,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0359,
+      "confidence": "Medium-low",
+      "signals": [
+        "11 HR in 254 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 52,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 67.7,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    }
+  ],
+  "games": [
+    {
+      "game_pk": 823663,
+      "game": "Detroit Tigers at Minnesota Twins",
+      "venue": "Target Field",
+      "players": [],
+      "game_favorite": "Kody Clemens",
+      "under_the_radar": null,
+      "secondary_under_the_radar": null,
+      "tertiary_under_the_radar": null,
+      "context_riser": "Kody Clemens",
+      "status": "pass",
+      "pass_reason": "No non-star hitter cleared the 12% probability and support-signal threshold."
+    },
+    {
+      "game_pk": 822689,
+      "game": "Miami Marlins at Washington Nationals",
+      "venue": "Nationals Park",
+      "players": [
+        {
+          "game_pk": 822689,
+          "game": "Miami Marlins at Washington Nationals",
+          "player": "Andr\u00e9s Chaparro",
+          "team": "Washington Nationals",
+          "opponent": "Miami Marlins",
+          "venue": "Nationals Park",
+          "opposing_starter": "Ryan Gusto",
+          "batting_order": 3,
+          "expected_pa": 4.29,
+          "classification": "Under-the-radar",
+          "projected_hr_probability": 0.1596,
+          "neutral_hr_probability": 0.1596,
+          "context_boost": 0.0,
+          "hr_per_pa": 0.0397,
+          "model_status": {
+            "mode": "transparent-prototype",
+            "reason": "No trained artifact found."
+          },
+          "prototype_hr_per_pa": 0.0397,
+          "confidence": "Medium-low",
+          "signals": [
+            "9 HR in 167 PA",
+            "Batting order 3",
+            "pitch-shape interaction unavailable"
+          ],
+          "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+          "signal_score": 54,
+          "signal_tier": "No call",
+          "signal_components": {
+            "barrels_per_pa": 50.0,
+            "hard_hit_rate": 50.0,
+            "max_exit_velocity": 50.0,
+            "airborne_pull_rate": 50.0,
+            "hr_per_pa": 81.9,
+            "recent_contact_trend": 50.0
+          },
+          "signal_tags": [
+            "balanced power profile"
+          ],
+          "playing_time": {
+            "start_probability": 1.0,
+            "substitution_risk": 0.03,
+            "lineup_pa_baseline": 4.35
+          },
+          "starter_exposure_share": 0.65,
+          "missing_inputs": [
+            "game-time temperature and wind",
+            "handedness-split bullpen HR/barrel rates",
+            "maximum exit velocity",
+            "minor-league HR and PA",
+            "starter Statcast profile",
+            "trained historical model artifact",
+            "validated handedness-specific park factor"
+          ],
+          "features": {
+            "sc_pa": null,
+            "barrel_per_pa": null,
+            "barrel_rate": null,
+            "avg_ev": null,
+            "max_ev": null,
+            "hard_hit_rate": null,
+            "fly_ball_rate": null,
+            "recent_barrel_per_pa": null,
+            "hr_per_pa_statcast": null,
+            "pulled_air_rate": null
+          },
+          "pitcher_features": {
+            "barrel_per_pa": null,
+            "fly_ball_rate": null,
+            "hr_per_pa_statcast": null
+          },
+          "result": "pending"
+        },
+        {
+          "game_pk": 822689,
+          "game": "Miami Marlins at Washington Nationals",
+          "player": "Abimelec Ortiz",
+          "team": "Washington Nationals",
+          "opponent": "Miami Marlins",
+          "venue": "Nationals Park",
+          "opposing_starter": "Ryan Gusto",
+          "batting_order": 2,
+          "expected_pa": 4.21,
+          "classification": "Under-the-radar",
+          "projected_hr_probability": 0.1507,
+          "neutral_hr_probability": 0.1507,
+          "context_boost": 0.0,
+          "hr_per_pa": 0.038,
+          "model_status": {
+            "mode": "transparent-prototype",
+            "reason": "No trained artifact found."
+          },
+          "prototype_hr_per_pa": 0.038,
+          "confidence": "Medium-low",
+          "signals": [
+            "5 HR in 88 PA",
+            "Batting order 2",
+            "pitch-shape interaction unavailable"
+          ],
+          "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+          "signal_score": 53,
+          "signal_tier": "No call",
+          "signal_components": {
+            "barrels_per_pa": 50.0,
+            "hard_hit_rate": 50.0,
+            "max_exit_velocity": 50.0,
+            "airborne_pull_rate": 50.0,
+            "hr_per_pa": 85.8,
+            "recent_contact_trend": 50.0
+          },
+          "signal_tags": [
+            "balanced power profile"
+          ],
+          "playing_time": {
+            "start_probability": 1.0,
+            "substitution_risk": 0.07,
+            "lineup_pa_baseline": 4.35
+          },
+          "starter_exposure_share": 0.65,
+          "missing_inputs": [
+            "game-time temperature and wind",
+            "handedness-split bullpen HR/barrel rates",
+            "maximum exit velocity",
+            "minor-league HR and PA",
+            "starter Statcast profile",
+            "trained historical model artifact",
+            "validated handedness-specific park factor"
+          ],
+          "features": {
+            "sc_pa": null,
+            "barrel_per_pa": null,
+            "barrel_rate": null,
+            "avg_ev": null,
+            "max_ev": null,
+            "hard_hit_rate": null,
+            "fly_ball_rate": null,
+            "recent_barrel_per_pa": null,
+            "hr_per_pa_statcast": null,
+            "pulled_air_rate": null
+          },
+          "pitcher_features": {
+            "barrel_per_pa": null,
+            "fly_ball_rate": null,
+            "hr_per_pa_statcast": null
+          },
+          "result": "pending"
+        }
+      ],
+      "game_favorite": "CJ Abrams",
+      "under_the_radar": "Andr\u00e9s Chaparro",
+      "secondary_under_the_radar": "Abimelec Ortiz",
+      "tertiary_under_the_radar": null,
+      "context_riser": "CJ Abrams",
+      "status": "qualifying call",
+      "pass_reason": null
+    },
+    {
+      "game_pk": 822932,
+      "game": "New York Mets at Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "players": [
+        {
+          "game_pk": 822932,
+          "game": "New York Mets at Tampa Bay Rays",
+          "player": "Francisco Lindor",
+          "team": "New York Mets",
+          "opponent": "Tampa Bay Rays",
+          "venue": "Tropicana Field",
+          "opposing_starter": "Ian Seymour",
+          "batting_order": 1,
+          "expected_pa": 4.49,
+          "classification": "Under-the-radar",
+          "projected_hr_probability": 0.1473,
+          "neutral_hr_probability": 0.1473,
+          "context_boost": 0.0,
+          "hr_per_pa": 0.0349,
+          "model_status": {
+            "mode": "transparent-prototype",
+            "reason": "No trained artifact found."
+          },
+          "prototype_hr_per_pa": 0.0349,
+          "confidence": "Medium-low",
+          "signals": [
+            "14 HR in 347 PA",
+            "Batting order 1",
+            "pitch-shape interaction unavailable"
+          ],
+          "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+          "signal_score": 52,
+          "signal_tier": "No call",
+          "signal_components": {
+            "barrels_per_pa": 50.0,
+            "hard_hit_rate": 50.0,
+            "max_exit_velocity": 50.0,
+            "airborne_pull_rate": 50.0,
+            "hr_per_pa": 63.8,
+            "recent_contact_trend": 50.0
+          },
+          "signal_tags": [
+            "balanced power profile"
+          ],
+          "playing_time": {
+            "start_probability": 1.0,
+            "substitution_risk": 0.03,
+            "lineup_pa_baseline": 4.55
+          },
+          "starter_exposure_share": 0.65,
+          "missing_inputs": [
+            "game-time temperature and wind",
+            "handedness-split bullpen HR/barrel rates",
+            "maximum exit velocity",
+            "minor-league HR and PA",
+            "starter Statcast profile",
+            "trained historical model artifact",
+            "validated handedness-specific park factor"
+          ],
+          "features": {
+            "sc_pa": null,
+            "barrel_per_pa": null,
+            "barrel_rate": null,
+            "avg_ev": null,
+            "max_ev": null,
+            "hard_hit_rate": null,
+            "fly_ball_rate": null,
+            "recent_barrel_per_pa": null,
+            "hr_per_pa_statcast": null,
+            "pulled_air_rate": null
+          },
+          "pitcher_features": {
+            "barrel_per_pa": null,
+            "fly_ball_rate": null,
+            "hr_per_pa_statcast": null
+          },
+          "result": "pending"
+        },
+        {
+          "game_pk": 822932,
+          "game": "New York Mets at Tampa Bay Rays",
+          "player": "Mark Vientos",
+          "team": "New York Mets",
+          "opponent": "Tampa Bay Rays",
+          "venue": "Tropicana Field",
+          "opposing_starter": "Ian Seymour",
+          "batting_order": 4,
+          "expected_pa": 4.29,
+          "classification": "Under-the-radar",
+          "projected_hr_probability": 0.1453,
+          "neutral_hr_probability": 0.1453,
+          "context_boost": 0.0,
+          "hr_per_pa": 0.0359,
+          "model_status": {
+            "mode": "transparent-prototype",
+            "reason": "No trained artifact found."
+          },
+          "prototype_hr_per_pa": 0.0359,
+          "confidence": "Medium-low",
+          "signals": [
+            "11 HR in 254 PA",
+            "Batting order 4",
+            "pitch-shape interaction unavailable"
+          ],
+          "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+          "signal_score": 52,
+          "signal_tier": "No call",
+          "signal_components": {
+            "barrels_per_pa": 50.0,
+            "hard_hit_rate": 50.0,
+            "max_exit_velocity": 50.0,
+            "airborne_pull_rate": 50.0,
+            "hr_per_pa": 67.7,
+            "recent_contact_trend": 50.0
+          },
+          "signal_tags": [
+            "balanced power profile"
+          ],
+          "playing_time": {
+            "start_probability": 1.0,
+            "substitution_risk": 0.03,
+            "lineup_pa_baseline": 4.35
+          },
+          "starter_exposure_share": 0.65,
+          "missing_inputs": [
+            "game-time temperature and wind",
+            "handedness-split bullpen HR/barrel rates",
+            "maximum exit velocity",
+            "minor-league HR and PA",
+            "starter Statcast profile",
+            "trained historical model artifact",
+            "validated handedness-specific park factor"
+          ],
+          "features": {
+            "sc_pa": null,
+            "barrel_per_pa": null,
+            "barrel_rate": null,
+            "avg_ev": null,
+            "max_ev": null,
+            "hard_hit_rate": null,
+            "fly_ball_rate": null,
+            "recent_barrel_per_pa": null,
+            "hr_per_pa_statcast": null,
+            "pulled_air_rate": null
+          },
+          "pitcher_features": {
+            "barrel_per_pa": null,
+            "fly_ball_rate": null,
+            "hr_per_pa_statcast": null
+          },
+          "result": "pending"
+        }
+      ],
+      "game_favorite": "Junior Caminero",
+      "under_the_radar": "Francisco Lindor",
+      "secondary_under_the_radar": "Mark Vientos",
+      "tertiary_under_the_radar": null,
+      "context_riser": "Junior Caminero",
+      "status": "qualifying call",
+      "pass_reason": null
+    },
+    {
+      "game_pk": 824473,
+      "game": "San Diego Padres at Cincinnati Reds",
+      "venue": "Great American Ball Park",
+      "players": [
+        {
+          "game_pk": 824473,
+          "game": "San Diego Padres at Cincinnati Reds",
+          "player": "H\u00e9ctor Rodr\u00edguez",
+          "team": "Cincinnati Reds",
+          "opponent": "San Diego Padres",
+          "venue": "Great American Ball Park",
+          "opposing_starter": "Michael King",
+          "batting_order": 1,
+          "expected_pa": 4.41,
+          "classification": "Under-the-radar",
+          "projected_hr_probability": 0.1619,
+          "neutral_hr_probability": 0.1547,
+          "context_boost": 0.0072,
+          "hr_per_pa": 0.0393,
+          "model_status": {
+            "mode": "transparent-prototype",
+            "reason": "No trained artifact found."
+          },
+          "prototype_hr_per_pa": 0.0374,
+          "confidence": "Medium-low",
+          "signals": [
+            "4 HR in 68 PA",
+            "Batting order 1",
+            "pitch-shape interaction unavailable",
+            "park factor 1.05 for L-handed power"
+          ],
+          "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+          "signal_score": 55,
+          "signal_tier": "No call",
+          "signal_components": {
+            "barrels_per_pa": 50.0,
+            "hard_hit_rate": 50.0,
+            "max_exit_velocity": 50.0,
+            "airborne_pull_rate": 50.0,
+            "hr_per_pa": 88.4,
+            "recent_contact_trend": 50.0
+          },
+          "signal_tags": [
+            "balanced power profile"
+          ],
+          "playing_time": {
+            "start_probability": 1.0,
+            "substitution_risk": 0.07,
+            "lineup_pa_baseline": 4.55
+          },
+          "starter_exposure_share": 0.65,
+          "missing_inputs": [
+            "game-time temperature and wind",
+            "handedness-split bullpen HR/barrel rates",
+            "maximum exit velocity",
+            "minor-league HR and PA",
+            "starter Statcast profile",
+            "trained historical model artifact"
+          ],
+          "features": {
+            "sc_pa": null,
+            "barrel_per_pa": null,
+            "barrel_rate": null,
+            "avg_ev": null,
+            "max_ev": null,
+            "hard_hit_rate": null,
+            "fly_ball_rate": null,
+            "recent_barrel_per_pa": null,
+            "hr_per_pa_statcast": null,
+            "pulled_air_rate": null
+          },
+          "pitcher_features": {
+            "barrel_per_pa": null,
+            "fly_ball_rate": null,
+            "hr_per_pa_statcast": null
+          },
+          "result": "pending"
+        },
+        {
+          "game_pk": 824473,
+          "game": "San Diego Padres at Cincinnati Reds",
+          "player": "Eugenio Su\u00e1rez",
+          "team": "Cincinnati Reds",
+          "opponent": "San Diego Padres",
+          "venue": "Great American Ball Park",
+          "opposing_starter": "Michael King",
+          "batting_order": 6,
+          "expected_pa": 4.0,
+          "classification": "Under-the-radar",
+          "projected_hr_probability": 0.1542,
+          "neutral_hr_probability": 0.1473,
+          "context_boost": 0.0069,
+          "hr_per_pa": 0.041,
+          "model_status": {
+            "mode": "transparent-prototype",
+            "reason": "No trained artifact found."
+          },
+          "prototype_hr_per_pa": 0.0391,
+          "confidence": "Medium-low",
+          "signals": [
+            "20 HR in 422 PA",
+            "Batting order 6",
+            "pitch-shape interaction unavailable",
+            "park factor 1.05 for R-handed power"
+          ],
+          "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+          "signal_score": 54,
+          "signal_tier": "No call",
+          "signal_components": {
+            "barrels_per_pa": 50.0,
+            "hard_hit_rate": 50.0,
+            "max_exit_velocity": 50.0,
+            "airborne_pull_rate": 50.0,
+            "hr_per_pa": 73.2,
+            "recent_contact_trend": 50.0
+          },
+          "signal_tags": [
+            "balanced power profile"
+          ],
+          "playing_time": {
+            "start_probability": 1.0,
+            "substitution_risk": 0.03,
+            "lineup_pa_baseline": 4.05
+          },
+          "starter_exposure_share": 0.65,
+          "missing_inputs": [
+            "game-time temperature and wind",
+            "handedness-split bullpen HR/barrel rates",
+            "maximum exit velocity",
+            "minor-league HR and PA",
+            "starter Statcast profile",
+            "trained historical model artifact"
+          ],
+          "features": {
+            "sc_pa": null,
+            "barrel_per_pa": null,
+            "barrel_rate": null,
+            "avg_ev": null,
+            "max_ev": null,
+            "hard_hit_rate": null,
+            "fly_ball_rate": null,
+            "recent_barrel_per_pa": null,
+            "hr_per_pa_statcast": null,
+            "pulled_air_rate": null
+          },
+          "pitcher_features": {
+            "barrel_per_pa": null,
+            "fly_ball_rate": null,
+            "hr_per_pa_statcast": null
+          },
+          "result": "pending"
+        }
+      ],
+      "game_favorite": "Sal Stewart",
+      "under_the_radar": "H\u00e9ctor Rodr\u00edguez",
+      "secondary_under_the_radar": "Eugenio Su\u00e1rez",
+      "tertiary_under_the_radar": null,
+      "context_riser": "Sal Stewart",
+      "status": "qualifying call",
+      "pass_reason": null
+    },
+    {
+      "game_pk": 824911,
+      "game": "San Francisco Giants at Atlanta Braves",
+      "venue": "Truist Park",
+      "players": [
+        {
+          "game_pk": 824911,
+          "game": "San Francisco Giants at Atlanta Braves",
+          "player": "Jonah Cox",
+          "team": "San Francisco Giants",
+          "opponent": "Atlanta Braves",
+          "venue": "Truist Park",
+          "opposing_starter": "Bryce Elder",
+          "batting_order": 4,
+          "expected_pa": 4.21,
+          "classification": "Under-the-radar",
+          "projected_hr_probability": 0.1351,
+          "neutral_hr_probability": 0.1351,
+          "context_boost": 0.0,
+          "hr_per_pa": 0.0339,
+          "model_status": {
+            "mode": "transparent-prototype",
+            "reason": "No trained artifact found."
+          },
+          "prototype_hr_per_pa": 0.0339,
+          "confidence": "Medium-low",
+          "signals": [
+            "3 HR in 64 PA",
+            "Batting order 4",
+            "pitch-shape interaction unavailable"
+          ],
+          "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+          "signal_score": 52,
+          "signal_tier": "No call",
+          "signal_components": {
+            "barrels_per_pa": 50.0,
+            "hard_hit_rate": 50.0,
+            "max_exit_velocity": 50.0,
+            "airborne_pull_rate": 50.0,
+            "hr_per_pa": 72.5,
+            "recent_contact_trend": 50.0
+          },
+          "signal_tags": [
+            "balanced power profile"
+          ],
+          "playing_time": {
+            "start_probability": 1.0,
+            "substitution_risk": 0.07,
+            "lineup_pa_baseline": 4.35
+          },
+          "starter_exposure_share": 0.65,
+          "missing_inputs": [
+            "game-time temperature and wind",
+            "handedness-split bullpen HR/barrel rates",
+            "maximum exit velocity",
+            "minor-league HR and PA",
+            "starter Statcast profile",
+            "trained historical model artifact",
+            "validated handedness-specific park factor"
+          ],
+          "features": {
+            "sc_pa": null,
+            "barrel_per_pa": null,
+            "barrel_rate": null,
+            "avg_ev": null,
+            "max_ev": null,
+            "hard_hit_rate": null,
+            "fly_ball_rate": null,
+            "recent_barrel_per_pa": null,
+            "hr_per_pa_statcast": null,
+            "pulled_air_rate": null
+          },
+          "pitcher_features": {
+            "barrel_per_pa": null,
+            "fly_ball_rate": null,
+            "hr_per_pa_statcast": null
+          },
+          "result": "pending"
+        }
+      ],
+      "game_favorite": "Matt Olson",
+      "under_the_radar": "Jonah Cox",
+      "secondary_under_the_radar": null,
+      "tertiary_under_the_radar": null,
+      "context_riser": "Matt Olson",
+      "status": "qualifying call",
+      "pass_reason": null
+    },
+    {
+      "game_pk": 824719,
+      "game": "Seattle Mariners at Boston Red Sox",
+      "venue": "Fenway Park",
+      "players": [],
+      "game_favorite": "Dominic Canzone",
+      "under_the_radar": null,
+      "secondary_under_the_radar": null,
+      "tertiary_under_the_radar": null,
+      "context_riser": "Dominic Canzone",
+      "status": "pass",
+      "pass_reason": "No non-star hitter cleared the 12% probability and support-signal threshold."
+    }
+  ],
+  "notes": [
+    "No sportsbook lines, betting odds, or public sentiment are used.",
+    "Players with limited MLB data are partially pooled using a 100-PA HR-rate prior and Statcast contact-quality blend.",
+    "Each call includes missing inputs rather than silently substituting stale or guessed data."
+  ]
+}
