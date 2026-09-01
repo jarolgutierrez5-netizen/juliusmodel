@@ -1513,5 +1513,65 @@
       "trained historical model artifact",
       "validated handedness-specific park factor"
     ]
+  },
+  {
+    "date": "2026-08-31",
+    "player": "Junior Caminero",
+    "projection": 0.1927,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "player": "Matt Olson",
+    "projection": 0.192,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "player": "Drake Baldwin",
+    "projection": 0.1564,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "player": "Francisco Lindor",
+    "projection": 0.1473,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
   }
 ]
