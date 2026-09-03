@@ -10243,7 +10243,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -10319,7 +10321,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -10394,7 +10398,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -10470,7 +10476,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -10546,7 +10554,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -10621,7 +10631,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -10697,7 +10709,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "hr",
+    "home_runs": 1,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -10773,7 +10787,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "hr",
+    "home_runs": 1,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -10849,7 +10865,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -10925,7 +10943,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -11000,7 +11020,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -11075,7 +11097,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -11151,7 +11175,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -11227,7 +11253,9 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "no_hr",
+    "home_runs": 0,
+    "settled_from": "official_mlb_boxscore"
   },
   {
     "date": "2026-09-02",
@@ -11303,6 +11331,8 @@
       "fly_ball_rate": null,
       "hr_per_pa_statcast": null
     },
-    "result": "pending"
+    "result": "hr",
+    "home_runs": 1,
+    "settled_from": "official_mlb_boxscore"
   }
 ]
