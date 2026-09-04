@@ -12489,5 +12489,1130 @@
     "result": "no_hr",
     "home_runs": 0,
     "settled_from": "official_mlb_boxscore"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Dillon Dingler",
+    "team": "Detroit Tigers",
+    "opponent": "Cleveland Guardians",
+    "venue": "Progressive Field",
+    "opposing_starter": "Logan Allen",
+    "batting_order": 4,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1608,
+    "neutral_hr_probability": 0.1608,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.04,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.04,
+    "confidence": "Medium-low",
+    "signals": [
+      "26 HR in 539 PA",
+      "Batting order 4",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 53,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 74.3,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Nathaniel Lowe",
+    "team": "Cleveland Guardians",
+    "opponent": "Detroit Tigers",
+    "venue": "Progressive Field",
+    "opposing_starter": "Keider Montero",
+    "batting_order": 5,
+    "expected_pa": 4.0,
+    "classification": "Established",
+    "projected_hr_probability": 0.1323,
+    "neutral_hr_probability": 0.1323,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0349,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0349,
+    "confidence": "Medium-low",
+    "signals": [
+      "15 HR in 373 PA",
+      "Batting order 5",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 51,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 63.6,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Jo Adell",
+    "team": "Cleveland Guardians",
+    "opponent": "Detroit Tigers",
+    "venue": "Progressive Field",
+    "opposing_starter": "Keider Montero",
+    "batting_order": 4,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1319,
+    "neutral_hr_probability": 0.1319,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0324,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0324,
+    "confidence": "Medium-low",
+    "signals": [
+      "20 HR in 566 PA",
+      "Batting order 4",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 51,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 57.1,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Spencer Torkelson",
+    "team": "Detroit Tigers",
+    "opponent": "Cleveland Guardians",
+    "venue": "Progressive Field",
+    "opposing_starter": "Logan Allen",
+    "batting_order": 7,
+    "expected_pa": 3.68,
+    "classification": "Established",
+    "projected_hr_probability": 0.1223,
+    "neutral_hr_probability": 0.1223,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0348,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0348,
+    "confidence": "Medium-low",
+    "signals": [
+      "21 HR in 532 PA",
+      "Batting order 7",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 50,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 62.6,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Hao-Yu Lee",
+    "team": "Detroit Tigers",
+    "opponent": "Cleveland Guardians",
+    "venue": "Progressive Field",
+    "opposing_starter": "Logan Allen",
+    "batting_order": 3,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.118,
+    "neutral_hr_probability": 0.118,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0288,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0288,
+    "confidence": "Medium-low",
+    "signals": [
+      "8 HR in 274 PA",
+      "Batting order 3",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 50,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 48.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Riley Greene",
+    "team": "Detroit Tigers",
+    "opponent": "Cleveland Guardians",
+    "venue": "Progressive Field",
+    "opposing_starter": "Logan Allen",
+    "batting_order": 5,
+    "expected_pa": 4.0,
+    "classification": "Established",
+    "projected_hr_probability": 0.1158,
+    "neutral_hr_probability": 0.1158,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0303,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0303,
+    "confidence": "Medium-low",
+    "signals": [
+      "16 HR in 502 PA",
+      "Batting order 5",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 50,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 52.5,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Ben Malgeri",
+    "team": "Detroit Tigers",
+    "opponent": "Cleveland Guardians",
+    "venue": "Progressive Field",
+    "opposing_starter": "Logan Allen",
+    "batting_order": 6,
+    "expected_pa": 3.92,
+    "classification": "Established",
+    "projected_hr_probability": 0.1131,
+    "neutral_hr_probability": 0.1131,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0301,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0301,
+    "confidence": "Medium-low",
+    "signals": [
+      "3 HR in 92 PA",
+      "Batting order 6",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 49,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 53.5,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Chase DeLauter",
+    "team": "Cleveland Guardians",
+    "opponent": "Detroit Tigers",
+    "venue": "Progressive Field",
+    "opposing_starter": "Keider Montero",
+    "batting_order": 2,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1114,
+    "neutral_hr_probability": 0.1114,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0271,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0271,
+    "confidence": "Medium-low",
+    "signals": [
+      "13 HR in 493 PA",
+      "Batting order 2",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 49,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 45.2,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Gleyber Torres",
+    "team": "Detroit Tigers",
+    "opponent": "Cleveland Guardians",
+    "venue": "Progressive Field",
+    "opposing_starter": "Logan Allen",
+    "batting_order": 1,
+    "expected_pa": 4.49,
+    "classification": "Established",
+    "projected_hr_probability": 0.1083,
+    "neutral_hr_probability": 0.1083,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0252,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0252,
+    "confidence": "Medium-low",
+    "signals": [
+      "8 HR in 354 PA",
+      "Batting order 1",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 49,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 40.1,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.55
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Jos\u00e9 Ram\u00edrez",
+    "team": "Cleveland Guardians",
+    "opponent": "Detroit Tigers",
+    "venue": "Progressive Field",
+    "opposing_starter": "Keider Montero",
+    "batting_order": 3,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.106,
+    "neutral_hr_probability": 0.106,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0258,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0258,
+    "confidence": "Medium-low",
+    "signals": [
+      "11 HR in 459 PA",
+      "Batting order 3",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 49,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 42.0,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Kevin McGonigle",
+    "team": "Detroit Tigers",
+    "opponent": "Cleveland Guardians",
+    "venue": "Progressive Field",
+    "opposing_starter": "Logan Allen",
+    "batting_order": 2,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1032,
+    "neutral_hr_probability": 0.1032,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0251,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0251,
+    "confidence": "Medium-low",
+    "signals": [
+      "14 HR in 608 PA",
+      "Batting order 2",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 49,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 40.7,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Angel Genao",
+    "team": "Cleveland Guardians",
+    "opponent": "Detroit Tigers",
+    "venue": "Progressive Field",
+    "opposing_starter": "Keider Montero",
+    "batting_order": 6,
+    "expected_pa": 3.92,
+    "classification": "Established",
+    "projected_hr_probability": 0.1003,
+    "neutral_hr_probability": 0.1003,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0266,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0266,
+    "confidence": "Medium-low",
+    "signals": [
+      "2 HR in 91 PA",
+      "Batting order 6",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 48,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 39.3,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Patrick Bailey",
+    "team": "Cleveland Guardians",
+    "opponent": "Detroit Tigers",
+    "venue": "Progressive Field",
+    "opposing_starter": "Keider Montero",
+    "batting_order": 8,
+    "expected_pa": 3.68,
+    "classification": "Established",
+    "projected_hr_probability": 0.0989,
+    "neutral_hr_probability": 0.0989,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0279,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0279,
+    "confidence": "Medium-low",
+    "signals": [
+      "8 HR in 292 PA",
+      "Batting order 8",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 48,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 46.5,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Max Clark",
+    "team": "Detroit Tigers",
+    "opponent": "Cleveland Guardians",
+    "venue": "Progressive Field",
+    "opposing_starter": "Logan Allen",
+    "batting_order": 8,
+    "expected_pa": 3.68,
+    "classification": "Established",
+    "projected_hr_probability": 0.0866,
+    "neutral_hr_probability": 0.0866,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0243,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0243,
+    "confidence": "Medium-low",
+    "signals": [
+      "2 HR in 118 PA",
+      "Batting order 8",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 47,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 32.6,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-04",
+    "game_pk": 824424,
+    "game": "Detroit Tigers at Cleveland Guardians",
+    "player": "Travis Bazzana",
+    "team": "Cleveland Guardians",
+    "opponent": "Detroit Tigers",
+    "venue": "Progressive Field",
+    "opposing_starter": "Keider Montero",
+    "batting_order": 7,
+    "expected_pa": 3.68,
+    "classification": "Established",
+    "projected_hr_probability": 0.085,
+    "neutral_hr_probability": 0.085,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0238,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0238,
+    "confidence": "Medium-low",
+    "signals": [
+      "9 HR in 439 PA",
+      "Batting order 7",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 47,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 37.3,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
   }
 ]
