@@ -75,7 +75,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "hr",
+      "home_runs": 1,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 824630,
@@ -149,7 +151,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 823496,
@@ -223,7 +227,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "hr",
+      "home_runs": 1,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 823496,
@@ -297,7 +303,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 822768,
@@ -372,7 +380,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 822768,
@@ -447,7 +457,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "hr",
+      "home_runs": 1,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 823496,
@@ -521,7 +533,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 824630,
@@ -595,7 +609,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 822768,
@@ -670,7 +686,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 824630,
@@ -744,7 +762,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 823496,
@@ -818,7 +838,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "hr",
+      "home_runs": 2,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 824630,
@@ -892,7 +914,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 824224,
@@ -966,7 +990,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 824712,
@@ -1040,7 +1066,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 822768,
@@ -1115,7 +1143,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     }
   ],
   "games": [
