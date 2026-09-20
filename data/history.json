@@ -25219,5 +25219,1130 @@
     "result": "no_hr",
     "home_runs": 0,
     "settled_from": "official_mlb_boxscore"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 824300,
+    "game": "Seattle Mariners at Colorado Rockies",
+    "player": "Hunter Goodman",
+    "team": "Colorado Rockies",
+    "opponent": "Seattle Mariners",
+    "venue": "Coors Field",
+    "opposing_starter": "Kade Anderson",
+    "batting_order": 3,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.2172,
+    "neutral_hr_probability": 0.2077,
+    "context_boost": 0.0094,
+    "hr_per_pa": 0.0555,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0528,
+    "confidence": "Medium-low",
+    "signals": [
+      "38 HR in 544 PA",
+      "Batting order 3",
+      "pitch-shape interaction unavailable",
+      "park factor 1.05 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 59,
+    "signal_tier": "Watch",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 100.0,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 824462,
+    "game": "Chicago Cubs at Cincinnati Reds",
+    "player": "Pete Crow-Armstrong",
+    "team": "Chicago Cubs",
+    "opponent": "Cincinnati Reds",
+    "venue": "Great American Ball Park",
+    "opposing_starter": "Rhett Lowder",
+    "batting_order": 1,
+    "expected_pa": 4.49,
+    "classification": "Established",
+    "projected_hr_probability": 0.2132,
+    "neutral_hr_probability": 0.2039,
+    "context_boost": 0.0093,
+    "hr_per_pa": 0.052,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0495,
+    "confidence": "Medium-low",
+    "signals": [
+      "44 HR in 697 PA",
+      "Batting order 1",
+      "pitch-shape interaction unavailable",
+      "park factor 1.05 for L-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 58,
+    "signal_tier": "Watch",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 94.2,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.55
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 823570,
+    "game": "Philadelphia Phillies at New York Mets",
+    "player": "Kyle Schwarber",
+    "team": "Philadelphia Phillies",
+    "opponent": "New York Mets",
+    "venue": "Citi Field",
+    "opposing_starter": "Jonah Tong",
+    "batting_order": 1,
+    "expected_pa": 4.49,
+    "classification": "Established",
+    "projected_hr_probability": 0.2129,
+    "neutral_hr_probability": 0.2129,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0519,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0519,
+    "confidence": "Medium-low",
+    "signals": [
+      "45 HR in 669 PA",
+      "Batting order 1",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 57,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 99.7,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.55
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 822922,
+    "game": "Boston Red Sox at Tampa Bay Rays",
+    "player": "Junior Caminero",
+    "team": "Tampa Bay Rays",
+    "opponent": "Boston Red Sox",
+    "venue": "Tropicana Field",
+    "opposing_starter": "Patrick Sandoval",
+    "batting_order": 3,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1906,
+    "neutral_hr_probability": 0.1906,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0481,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0481,
+    "confidence": "Medium-low",
+    "signals": [
+      "41 HR in 673 PA",
+      "Batting order 3",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 56,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 91.2,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 824139,
+    "game": "Atlanta Braves at Houston Astros",
+    "player": "Yordan Alvarez",
+    "team": "Houston Astros",
+    "opponent": "Atlanta Braves",
+    "venue": "Daikin Park",
+    "opposing_starter": "Mart\u00edn P\u00e9rez",
+    "batting_order": 2,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.19,
+    "neutral_hr_probability": 0.19,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0479,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0479,
+    "confidence": "Medium-low",
+    "signals": [
+      "40 HR in 659 PA",
+      "Batting order 2",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 56,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 90.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 824546,
+    "game": "Detroit Tigers at Chicago White Sox",
+    "player": "Munetaka Murakami",
+    "team": "Chicago White Sox",
+    "opponent": "Detroit Tigers",
+    "venue": "Rate Field",
+    "opposing_starter": "Troy Melton",
+    "batting_order": 4,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1892,
+    "neutral_hr_probability": 0.1892,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0477,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0477,
+    "confidence": "Medium-low",
+    "signals": [
+      "32 HR in 521 PA",
+      "Batting order 4",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 56,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 91.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 824139,
+    "game": "Atlanta Braves at Houston Astros",
+    "player": "Matt Olson",
+    "team": "Atlanta Braves",
+    "opponent": "Houston Astros",
+    "venue": "Daikin Park",
+    "opposing_starter": "Hunter Brown",
+    "batting_order": 3,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1877,
+    "neutral_hr_probability": 0.1877,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0473,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0473,
+    "confidence": "Medium-low",
+    "signals": [
+      "40 HR in 671 PA",
+      "Batting order 3",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 55,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 89.5,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 823570,
+    "game": "Philadelphia Phillies at New York Mets",
+    "player": "Juan Soto",
+    "team": "New York Mets",
+    "opponent": "Philadelphia Phillies",
+    "venue": "Citi Field",
+    "opposing_starter": "Cristopher S\u00e1nchez",
+    "batting_order": 2,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1801,
+    "neutral_hr_probability": 0.1801,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0452,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0452,
+    "confidence": "Medium-low",
+    "signals": [
+      "26 HR in 449 PA",
+      "Batting order 2",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 55,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 87.2,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 822844,
+    "game": "Toronto Blue Jays at Texas Rangers",
+    "player": "Kazuma Okamoto",
+    "team": "Toronto Blue Jays",
+    "opponent": "Texas Rangers",
+    "venue": "Globe Life Field",
+    "opposing_starter": "Jacob deGrom",
+    "batting_order": 4,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.175,
+    "neutral_hr_probability": 0.175,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0438,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0438,
+    "confidence": "Medium-low",
+    "signals": [
+      "33 HR in 608 PA",
+      "Batting order 4",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 54,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 82.4,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 823001,
+    "game": "Washington Nationals at St. Louis Cardinals",
+    "player": "Andr\u00e9s Chaparro",
+    "team": "Washington Nationals",
+    "opponent": "St. Louis Cardinals",
+    "venue": "Busch Stadium",
+    "opposing_starter": "Quinn Mathews",
+    "batting_order": 2,
+    "expected_pa": 4.29,
+    "classification": "Under-the-radar",
+    "projected_hr_probability": 0.1602,
+    "neutral_hr_probability": 0.1602,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0399,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0399,
+    "confidence": "Medium-low",
+    "signals": [
+      "11 HR in 210 PA",
+      "Batting order 2",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 53,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 79.8,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 824546,
+    "game": "Detroit Tigers at Chicago White Sox",
+    "player": "Colson Montgomery",
+    "team": "Chicago White Sox",
+    "opponent": "Detroit Tigers",
+    "venue": "Rate Field",
+    "opposing_starter": "Troy Melton",
+    "batting_order": 6,
+    "expected_pa": 4.0,
+    "classification": "Under-the-radar",
+    "projected_hr_probability": 0.1566,
+    "neutral_hr_probability": 0.1566,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0417,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0417,
+    "confidence": "Medium-low",
+    "signals": [
+      "31 HR in 611 PA",
+      "Batting order 6",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 53,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 77.6,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 824300,
+    "game": "Seattle Mariners at Colorado Rockies",
+    "player": "Lazaro Montes",
+    "team": "Seattle Mariners",
+    "opponent": "Colorado Rockies",
+    "venue": "Coors Field",
+    "opposing_starter": "Tomoyuki Sugano",
+    "batting_order": 8,
+    "expected_pa": 3.61,
+    "classification": "Under-the-radar",
+    "projected_hr_probability": 0.1554,
+    "neutral_hr_probability": 0.1484,
+    "context_boost": 0.007,
+    "hr_per_pa": 0.0457,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0435,
+    "confidence": "Medium-low",
+    "signals": [
+      "4 HR in 39 PA",
+      "Batting order 8",
+      "pitch-shape interaction unavailable",
+      "park factor 1.05 for L-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 55,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 100.0,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.11000000000000001,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 823570,
+    "game": "Philadelphia Phillies at New York Mets",
+    "player": "Mark Vientos",
+    "team": "New York Mets",
+    "opponent": "Philadelphia Phillies",
+    "venue": "Citi Field",
+    "opposing_starter": "Cristopher S\u00e1nchez",
+    "batting_order": 4,
+    "expected_pa": 4.29,
+    "classification": "Under-the-radar",
+    "projected_hr_probability": 0.153,
+    "neutral_hr_probability": 0.153,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.038,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.038,
+    "confidence": "Medium-low",
+    "signals": [
+      "13 HR in 277 PA",
+      "Batting order 4",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 53,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 72.6,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 823329,
+    "game": "Kansas City Royals at Pittsburgh Pirates",
+    "player": "Rafael Flores Jr.",
+    "team": "Pittsburgh Pirates",
+    "opponent": "Kansas City Royals",
+    "venue": "PNC Park",
+    "opposing_starter": "Michael Wacha",
+    "batting_order": 7,
+    "expected_pa": 3.68,
+    "classification": "Under-the-radar",
+    "projected_hr_probability": 0.1488,
+    "neutral_hr_probability": 0.1488,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0428,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0428,
+    "confidence": "Medium-low",
+    "signals": [
+      "9 HR in 143 PA",
+      "Batting order 7",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 53,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 93.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-20",
+    "game_pk": 823896,
+    "game": "San Francisco Giants at Los Angeles Dodgers",
+    "player": "Victor Bericoto",
+    "team": "San Francisco Giants",
+    "opponent": "Los Angeles Dodgers",
+    "venue": "UNIQLO Field at Dodger Stadium",
+    "opposing_starter": null,
+    "batting_order": 3,
+    "expected_pa": 4.21,
+    "classification": "Under-the-radar",
+    "projected_hr_probability": 0.1479,
+    "neutral_hr_probability": 0.1479,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0373,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0373,
+    "confidence": "Medium-low",
+    "signals": [
+      "5 HR in 93 PA",
+      "Batting order 3",
+      "pitch-shape interaction unavailable"
+    ],
+    "primary_risk": "Small MLB sample is heavily shrunk toward the player-profile prior",
+    "signal_score": 53,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 81.7,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "confirmed opposing starter",
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "hr_per_pa_statcast": null,
+      "barrel_per_pa": null
+    },
+    "result": "pending"
   }
 ]
