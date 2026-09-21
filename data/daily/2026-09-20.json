@@ -455,7 +455,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 824139,
@@ -834,7 +836,9 @@
         "fly_ball_rate": null,
         "hr_per_pa_statcast": null
       },
-      "result": "pending"
+      "result": "no_hr",
+      "home_runs": 0,
+      "settled_from": "official_mlb_boxscore"
     },
     {
       "game_pk": 824300,

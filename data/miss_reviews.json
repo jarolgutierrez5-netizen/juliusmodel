@@ -4293,6 +4293,21 @@
   },
   {
     "date": "2026-09-20",
+    "player": "Munetaka Murakami",
+    "projection": 0.1892,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-09-20",
     "player": "Matt Olson",
     "projection": 0.1877,
     "review_label": "high-input-uncertainty",
@@ -4341,6 +4356,21 @@
     "date": "2026-09-20",
     "player": "Andr\u00e9s Chaparro",
     "projection": 0.1602,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-09-20",
+    "player": "Colson Montgomery",
+    "projection": 0.1566,
     "review_label": "high-input-uncertainty",
     "missing_inputs": [
       "game-time temperature and wind",
