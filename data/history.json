@@ -26374,5 +26374,1130 @@
     "result": "no_hr",
     "home_runs": 0,
     "settled_from": "official_mlb_boxscore"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Brooks Lee",
+    "team": "Minnesota Twins",
+    "opponent": "San Francisco Giants",
+    "venue": "Oracle Park",
+    "opposing_starter": "Cesar Perdomo",
+    "batting_order": 2,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1408,
+    "neutral_hr_probability": 0.1408,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0348,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0348,
+    "confidence": "Medium-low",
+    "signals": [
+      "24 HR in 613 PA",
+      "Batting order 2",
+      "pitch-shape interaction unavailable",
+      "park factor 1.00 for S-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 52,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 62.2,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Victor Bericoto",
+    "team": "San Francisco Giants",
+    "opponent": "Minnesota Twins",
+    "venue": "Oracle Park",
+    "opposing_starter": "Connor Prielipp",
+    "batting_order": 3,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1331,
+    "neutral_hr_probability": 0.1455,
+    "context_boost": -0.0124,
+    "hr_per_pa": 0.0327,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.036,
+    "confidence": "Medium-low",
+    "signals": [
+      "5 HR in 102 PA",
+      "Batting order 3",
+      "pitch-shape interaction unavailable",
+      "park factor 0.91 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 50,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 75.4,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Ryan Jeffers",
+    "team": "Minnesota Twins",
+    "opponent": "San Francisco Giants",
+    "venue": "Oracle Park",
+    "opposing_starter": "Cesar Perdomo",
+    "batting_order": 4,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1272,
+    "neutral_hr_probability": 0.1391,
+    "context_boost": -0.0119,
+    "hr_per_pa": 0.0312,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0343,
+    "confidence": "Medium-low",
+    "signals": [
+      "14 HR in 357 PA",
+      "Batting order 4",
+      "pitch-shape interaction unavailable",
+      "park factor 0.91 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 49,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 62.3,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Josh Bell",
+    "team": "Minnesota Twins",
+    "opponent": "San Francisco Giants",
+    "venue": "Oracle Park",
+    "opposing_starter": "Cesar Perdomo",
+    "batting_order": 3,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.1256,
+    "neutral_hr_probability": 0.1256,
+    "context_boost": 0.0,
+    "hr_per_pa": 0.0308,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0308,
+    "confidence": "Medium-low",
+    "signals": [
+      "20 HR in 614 PA",
+      "Batting order 3",
+      "pitch-shape interaction unavailable",
+      "park factor 1.00 for S-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 50,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 53.4,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Emmanuel Rodriguez",
+    "team": "Minnesota Twins",
+    "opponent": "San Francisco Giants",
+    "venue": "Oracle Park",
+    "opposing_starter": "Cesar Perdomo",
+    "batting_order": 7,
+    "expected_pa": 3.61,
+    "classification": "Established",
+    "projected_hr_probability": 0.1084,
+    "neutral_hr_probability": 0.115,
+    "context_boost": -0.0066,
+    "hr_per_pa": 0.0313,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0333,
+    "confidence": "Medium-low",
+    "signals": [
+      "2 HR in 40 PA",
+      "Batting order 7",
+      "pitch-shape interaction unavailable",
+      "park factor 0.94 for L-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 49,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 76.7,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.11000000000000001,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Jonah Cox",
+    "team": "San Francisco Giants",
+    "opponent": "Minnesota Twins",
+    "venue": "Oracle Park",
+    "opposing_starter": "Connor Prielipp",
+    "batting_order": 1,
+    "expected_pa": 4.49,
+    "classification": "Established",
+    "projected_hr_probability": 0.108,
+    "neutral_hr_probability": 0.1181,
+    "context_boost": -0.0102,
+    "hr_per_pa": 0.0251,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0276,
+    "confidence": "Medium-low",
+    "signals": [
+      "4 HR in 153 PA",
+      "Batting order 1",
+      "pitch-shape interaction unavailable",
+      "park factor 0.91 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 48,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 44.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.55
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Shay Whitcomb",
+    "team": "San Francisco Giants",
+    "opponent": "Minnesota Twins",
+    "venue": "Oracle Park",
+    "opposing_starter": "Connor Prielipp",
+    "batting_order": 8,
+    "expected_pa": 3.68,
+    "classification": "Established",
+    "projected_hr_probability": 0.1011,
+    "neutral_hr_probability": 0.1107,
+    "context_boost": -0.0096,
+    "hr_per_pa": 0.0285,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0314,
+    "confidence": "Medium-low",
+    "signals": [
+      "4 HR in 112 PA",
+      "Batting order 8",
+      "pitch-shape interaction unavailable",
+      "park factor 0.91 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 47,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 57.6,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Royce Lewis",
+    "team": "Minnesota Twins",
+    "opponent": "San Francisco Giants",
+    "venue": "Oracle Park",
+    "opposing_starter": "Cesar Perdomo",
+    "batting_order": 6,
+    "expected_pa": 4.0,
+    "classification": "Established",
+    "projected_hr_probability": 0.099,
+    "neutral_hr_probability": 0.1084,
+    "context_boost": -0.0094,
+    "hr_per_pa": 0.0258,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0283,
+    "confidence": "Medium-low",
+    "signals": [
+      "14 HR in 493 PA",
+      "Batting order 6",
+      "pitch-shape interaction unavailable",
+      "park factor 0.91 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 47,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 47.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Andrew Knizner",
+    "team": "San Francisco Giants",
+    "opponent": "Minnesota Twins",
+    "venue": "Oracle Park",
+    "opposing_starter": "Connor Prielipp",
+    "batting_order": 5,
+    "expected_pa": 3.92,
+    "classification": "Established",
+    "projected_hr_probability": 0.0983,
+    "neutral_hr_probability": 0.1076,
+    "context_boost": -0.0093,
+    "hr_per_pa": 0.026,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0286,
+    "confidence": "Medium-low",
+    "signals": [
+      "2 HR in 72 PA",
+      "Batting order 5",
+      "pitch-shape interaction unavailable",
+      "park factor 0.91 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 47,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 47.0,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Turner Hill",
+    "team": "San Francisco Giants",
+    "opponent": "Minnesota Twins",
+    "venue": "Oracle Park",
+    "opposing_starter": "Connor Prielipp",
+    "batting_order": 2,
+    "expected_pa": 4.29,
+    "classification": "Established",
+    "projected_hr_probability": 0.0833,
+    "neutral_hr_probability": 0.0884,
+    "context_boost": -0.0051,
+    "hr_per_pa": 0.0201,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0213,
+    "confidence": "Medium-low",
+    "signals": [
+      "1 HR in 114 PA",
+      "Batting order 2",
+      "pitch-shape interaction unavailable",
+      "park factor 0.94 for L-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 46,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 21.7,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.35
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Alan Roden",
+    "team": "Minnesota Twins",
+    "opponent": "San Francisco Giants",
+    "venue": "Oracle Park",
+    "opposing_starter": "Cesar Perdomo",
+    "batting_order": 5,
+    "expected_pa": 3.92,
+    "classification": "Established",
+    "projected_hr_probability": 0.0829,
+    "neutral_hr_probability": 0.088,
+    "context_boost": -0.0051,
+    "hr_per_pa": 0.0218,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0232,
+    "confidence": "Medium-low",
+    "signals": [
+      "1 HR in 87 PA",
+      "Batting order 5",
+      "pitch-shape interaction unavailable",
+      "park factor 0.94 for L-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 46,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 25.3,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Ben Ross",
+    "team": "Minnesota Twins",
+    "opponent": "San Francisco Giants",
+    "venue": "Oracle Park",
+    "opposing_starter": "Cesar Perdomo",
+    "batting_order": 9,
+    "expected_pa": 3.61,
+    "classification": "Established",
+    "projected_hr_probability": 0.0825,
+    "neutral_hr_probability": 0.0904,
+    "context_boost": -0.0079,
+    "hr_per_pa": 0.0236,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0259,
+    "confidence": "Medium-low",
+    "signals": [
+      "0 HR in 19 PA",
+      "Batting order 9",
+      "pitch-shape interaction unavailable",
+      "park factor 0.91 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 44,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 10.0,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.11000000000000001,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Brett Harris",
+    "team": "San Francisco Giants",
+    "opponent": "Minnesota Twins",
+    "venue": "Oracle Park",
+    "opposing_starter": "Connor Prielipp",
+    "batting_order": 6,
+    "expected_pa": 3.92,
+    "classification": "Established",
+    "projected_hr_probability": 0.0808,
+    "neutral_hr_probability": 0.0885,
+    "context_boost": -0.0077,
+    "hr_per_pa": 0.0213,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0234,
+    "confidence": "Medium-low",
+    "signals": [
+      "0 HR in 39 PA",
+      "Batting order 6",
+      "pitch-shape interaction unavailable",
+      "park factor 0.91 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 44,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 10.0,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 4.05
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Luke Keaschall",
+    "team": "Minnesota Twins",
+    "opponent": "San Francisco Giants",
+    "venue": "Oracle Park",
+    "opposing_starter": "Cesar Perdomo",
+    "batting_order": 1,
+    "expected_pa": 4.49,
+    "classification": "Established",
+    "projected_hr_probability": 0.08,
+    "neutral_hr_probability": 0.0876,
+    "context_boost": -0.0076,
+    "hr_per_pa": 0.0184,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0202,
+    "confidence": "Medium-low",
+    "signals": [
+      "9 HR in 602 PA",
+      "Batting order 1",
+      "pitch-shape interaction unavailable",
+      "park factor 0.91 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 46,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 29.9,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.03,
+      "lineup_pa_baseline": 4.55
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
+  },
+  {
+    "date": "2026-09-23",
+    "game_pk": 823168,
+    "game": "Minnesota Twins at San Francisco Giants",
+    "player": "Christian Koss",
+    "team": "San Francisco Giants",
+    "opponent": "Minnesota Twins",
+    "venue": "Oracle Park",
+    "opposing_starter": "Connor Prielipp",
+    "batting_order": 9,
+    "expected_pa": 3.68,
+    "classification": "Established",
+    "projected_hr_probability": 0.0787,
+    "neutral_hr_probability": 0.0863,
+    "context_boost": -0.0075,
+    "hr_per_pa": 0.022,
+    "model_status": {
+      "mode": "transparent-prototype",
+      "reason": "No trained artifact found."
+    },
+    "prototype_hr_per_pa": 0.0242,
+    "confidence": "Medium-low",
+    "signals": [
+      "4 HR in 207 PA",
+      "Batting order 9",
+      "pitch-shape interaction unavailable",
+      "park factor 0.91 for R-handed power"
+    ],
+    "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+    "signal_score": 45,
+    "signal_tier": "No call",
+    "signal_components": {
+      "barrels_per_pa": 50.0,
+      "hard_hit_rate": 50.0,
+      "max_exit_velocity": 50.0,
+      "airborne_pull_rate": 50.0,
+      "hr_per_pa": 35.8,
+      "recent_contact_trend": 50.0
+    },
+    "signal_tags": [
+      "balanced power profile"
+    ],
+    "playing_time": {
+      "start_probability": 1.0,
+      "substitution_risk": 0.07,
+      "lineup_pa_baseline": 3.8
+    },
+    "starter_exposure_share": 0.65,
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ],
+    "features": {
+      "sc_pa": null,
+      "barrel_per_pa": null,
+      "barrel_rate": null,
+      "avg_ev": null,
+      "max_ev": null,
+      "hard_hit_rate": null,
+      "fly_ball_rate": null,
+      "recent_barrel_per_pa": null,
+      "hr_per_pa_statcast": null,
+      "pulled_air_rate": null
+    },
+    "pitcher_features": {
+      "barrel_per_pa": null,
+      "fly_ball_rate": null,
+      "hr_per_pa_statcast": null
+    },
+    "result": "pending"
   }
 ]
