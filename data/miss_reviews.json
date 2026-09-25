@@ -4621,5 +4621,188 @@
       "starter Statcast profile",
       "trained historical model artifact"
     ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Hunter Goodman",
+    "projection": 0.2181,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Pete Crow-Armstrong",
+    "projection": 0.2043,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Munetaka Murakami",
+    "projection": 0.1901,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Juan Soto",
+    "projection": 0.1813,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Heriberto Hern\u00e1ndez",
+    "projection": 0.162,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Miguel Vargas",
+    "projection": 0.1614,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Michael Conforto",
+    "projection": 0.1595,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Francisco Lindor",
+    "projection": 0.1577,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Justin Foscue",
+    "projection": 0.1556,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Carter Jensen",
+    "projection": 0.1545,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Jake Burger",
+    "projection": 0.1536,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "player": "Colson Montgomery",
+    "projection": 0.143,
+    "review_label": "opportunity-limited",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
   }
 ]
