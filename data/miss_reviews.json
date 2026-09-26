@@ -4804,5 +4804,173 @@
       "trained historical model artifact",
       "validated handedness-specific park factor"
     ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "Ben Rice",
+    "projection": 0.2041,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "Coby Mayo",
+    "projection": 0.1735,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "Paul Goldschmidt",
+    "projection": 0.1658,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "Christian Encarnacion-Strand",
+    "projection": 0.1521,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "Amed Rosario",
+    "projection": 0.1432,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "Gunnar Henderson",
+    "projection": 0.1375,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "Spencer Jones",
+    "projection": 0.1363,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "George Lombard Jr.",
+    "projection": 0.1338,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "Colton Cowser",
+    "projection": 0.1259,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "Heliot Ramos",
+    "projection": 0.1206,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "Jos\u00e9 Caballero",
+    "projection": 0.1064,
+    "review_label": "opportunity-limited",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "player": "Ali S\u00e1nchez",
+    "projection": 0.0819,
+    "review_label": "opportunity-limited",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
   }
 ]
