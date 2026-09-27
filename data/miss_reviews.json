@@ -5117,6 +5117,21 @@
   },
   {
     "date": "2026-09-26",
+    "player": "Corey Seager",
+    "projection": 0.1512,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor"
+    ]
+  },
+  {
+    "date": "2026-09-26",
     "player": "Ronald Acu\u00f1a Jr.",
     "projection": 0.1486,
     "review_label": "high-input-uncertainty",
