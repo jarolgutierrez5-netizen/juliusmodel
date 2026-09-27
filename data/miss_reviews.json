@@ -4972,5 +4972,163 @@
       "starter Statcast profile",
       "trained historical model artifact"
     ]
+  },
+  {
+    "date": "2026-09-26",
+    "player": "Matt Olson",
+    "projection": 0.1873,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "player": "Eugenio Su\u00e1rez",
+    "projection": 0.1698,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "player": "Elly De La Cruz",
+    "projection": 0.1608,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "player": "Kazuma Okamoto",
+    "projection": 0.1604,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "player": "Heriberto Hern\u00e1ndez",
+    "projection": 0.1603,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "player": "Sal Stewart",
+    "projection": 0.1578,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "player": "Shohei Ohtani",
+    "projection": 0.1544,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "player": "Michael Harris II",
+    "projection": 0.1541,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "player": "Griffin Conine",
+    "projection": 0.1515,
+    "review_label": "opportunity-limited",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "player": "Ronald Acu\u00f1a Jr.",
+    "projection": 0.1486,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
   }
 ]
