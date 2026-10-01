@@ -1,27 +1,27 @@
 {
-  "settled_calls": 432,
-  "home_runs": 60,
-  "hit_rate": 0.1388888888888889,
-  "brier_score": 0.11957226555555554,
-  "expected_home_runs": 63.003,
+  "settled_calls": 441,
+  "home_runs": 61,
+  "hit_rate": 0.1383219954648526,
+  "brier_score": 0.11930646358276643,
+  "expected_home_runs": 64.098,
   "calibration_buckets": [
     {
       "bucket": "(-0.001, 0.1]",
-      "calls": 41,
-      "actual_hr_rate": 0.0975609756097561,
-      "predicted_hr_rate": 0.08707317073170731
+      "calls": 45,
+      "actual_hr_rate": 0.1111111111111111,
+      "predicted_hr_rate": 0.08727555555555555
     },
     {
       "bucket": "(0.1, 0.15]",
-      "calls": 185,
-      "actual_hr_rate": 0.14054054054054055,
-      "predicted_hr_rate": 0.12667621621621622
+      "calls": 188,
+      "actual_hr_rate": 0.13829787234042554,
+      "predicted_hr_rate": 0.1267
     },
     {
       "bucket": "(0.15, 0.2]",
-      "calls": 181,
-      "actual_hr_rate": 0.13812154696132597,
-      "predicted_hr_rate": 0.169707182320442
+      "calls": 183,
+      "actual_hr_rate": 0.1366120218579235,
+      "predicted_hr_rate": 0.16978196721311475
     },
     {
       "bucket": "(0.2, 0.25]",
