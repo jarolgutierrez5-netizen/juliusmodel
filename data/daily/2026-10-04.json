@@ -1,0 +1,1152 @@
+{
+  "date": "2026-10-04",
+  "model_version": "matchup-adjusted-statcast-3.0",
+  "method": "Partial-pooling HR/PA model with hitter contact quality, starter Statcast, pitch-mix fit, expected PA, and transparent neutral fallbacks.",
+  "calls": [
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Jackson Chourio",
+      "team": "Milwaukee Brewers",
+      "opponent": "San Diego Padres",
+      "venue": "American Family Field",
+      "opposing_starter": "Michael King",
+      "batting_order": 1,
+      "expected_pa": 4.49,
+      "classification": "Established",
+      "projected_hr_probability": 0.1572,
+      "neutral_hr_probability": 0.1572,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0374,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0374,
+      "confidence": "Medium-low",
+      "signals": [
+        "25 HR in 573 PA",
+        "Batting order 1",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 53,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 68.2,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.55
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Jake Bauers",
+      "team": "Milwaukee Brewers",
+      "opponent": "San Diego Padres",
+      "venue": "American Family Field",
+      "opposing_starter": "Michael King",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1539,
+      "neutral_hr_probability": 0.1539,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0382,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0382,
+      "confidence": "Medium-low",
+      "signals": [
+        "26 HR in 578 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 53,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 70.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Manny Machado",
+      "team": "San Diego Padres",
+      "opponent": "Milwaukee Brewers",
+      "venue": "American Family Field",
+      "opposing_starter": "Logan Henderson",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1531,
+      "neutral_hr_probability": 0.1531,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.038,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.038,
+      "confidence": "Medium-low",
+      "signals": [
+        "30 HR in 677 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 53,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 69.1,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Ty France",
+      "team": "San Diego Padres",
+      "opponent": "Milwaukee Brewers",
+      "venue": "American Family Field",
+      "opposing_starter": "Logan Henderson",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1465,
+      "neutral_hr_probability": 0.1465,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0362,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0362,
+      "confidence": "Medium-low",
+      "signals": [
+        "21 HR in 500 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 52,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 66.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Fernando Tatis Jr.",
+      "team": "San Diego Padres",
+      "opponent": "Milwaukee Brewers",
+      "venue": "American Family Field",
+      "opposing_starter": "Logan Henderson",
+      "batting_order": 1,
+      "expected_pa": 4.49,
+      "classification": "Established",
+      "projected_hr_probability": 0.1383,
+      "neutral_hr_probability": 0.1383,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0326,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0326,
+      "confidence": "Medium-low",
+      "signals": [
+        "25 HR in 704 PA",
+        "Batting order 1",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 51,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 57.3,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.55
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Jackson Merrill",
+      "team": "San Diego Padres",
+      "opponent": "Milwaukee Brewers",
+      "venue": "American Family Field",
+      "opposing_starter": "Logan Henderson",
+      "batting_order": 5,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.132,
+      "neutral_hr_probability": 0.132,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0348,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0348,
+      "confidence": "Medium-low",
+      "signals": [
+        "26 HR in 664 PA",
+        "Batting order 5",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 51,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 62.2,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Ethan Salas",
+      "team": "San Diego Padres",
+      "opponent": "Milwaukee Brewers",
+      "venue": "American Family Field",
+      "opposing_starter": "Logan Henderson",
+      "batting_order": 6,
+      "expected_pa": 3.92,
+      "classification": "Established",
+      "projected_hr_probability": 0.1242,
+      "neutral_hr_probability": 0.1242,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0333,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0333,
+      "confidence": "Medium-low",
+      "signals": [
+        "2 HR in 40 PA",
+        "Batting order 6",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 51,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 76.7,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Brice Turang",
+      "team": "Milwaukee Brewers",
+      "opponent": "San Diego Padres",
+      "venue": "American Family Field",
+      "opposing_starter": "Michael King",
+      "batting_order": 2,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1217,
+      "neutral_hr_probability": 0.1217,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0298,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0298,
+      "confidence": "Medium-low",
+      "signals": [
+        "21 HR in 680 PA",
+        "Batting order 2",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 50,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 51.2,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "William Contreras",
+      "team": "Milwaukee Brewers",
+      "opponent": "San Diego Padres",
+      "venue": "American Family Field",
+      "opposing_starter": "Michael King",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1152,
+      "neutral_hr_probability": 0.1152,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0281,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0281,
+      "confidence": "Medium-low",
+      "signals": [
+        "18 HR in 640 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 50,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 47.5,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Luis Campusano",
+      "team": "San Diego Padres",
+      "opponent": "Milwaukee Brewers",
+      "venue": "American Family Field",
+      "opposing_starter": "Logan Henderson",
+      "batting_order": 8,
+      "expected_pa": 3.68,
+      "classification": "Established",
+      "projected_hr_probability": 0.1073,
+      "neutral_hr_probability": 0.1073,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0304,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0304,
+      "confidence": "Medium-low",
+      "signals": [
+        "8 HR in 248 PA",
+        "Batting order 8",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 49,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 53.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Christian Yelich",
+      "team": "Milwaukee Brewers",
+      "opponent": "San Diego Padres",
+      "venue": "American Family Field",
+      "opposing_starter": "Michael King",
+      "batting_order": 6,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.099,
+      "neutral_hr_probability": 0.099,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0257,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0257,
+      "confidence": "Medium-low",
+      "signals": [
+        "12 HR in 500 PA",
+        "Batting order 6",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 48,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 42.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Garrett Mitchell",
+      "team": "Milwaukee Brewers",
+      "opponent": "San Diego Padres",
+      "venue": "American Family Field",
+      "opposing_starter": "Michael King",
+      "batting_order": 5,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.0917,
+      "neutral_hr_probability": 0.0917,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0238,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0238,
+      "confidence": "Medium-low",
+      "signals": [
+        "11 HR in 531 PA",
+        "Batting order 5",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 48,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 37.6,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Xander Bogaerts",
+      "team": "San Diego Padres",
+      "opponent": "Milwaukee Brewers",
+      "venue": "American Family Field",
+      "opposing_starter": "Logan Henderson",
+      "batting_order": 7,
+      "expected_pa": 3.68,
+      "classification": "Established",
+      "projected_hr_probability": 0.0859,
+      "neutral_hr_probability": 0.0859,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0241,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0241,
+      "confidence": "Medium-low",
+      "signals": [
+        "13 HR in 606 PA",
+        "Batting order 7",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 47,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 38.6,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Jake Cronenworth",
+      "team": "San Diego Padres",
+      "opponent": "Milwaukee Brewers",
+      "venue": "American Family Field",
+      "opposing_starter": "Logan Henderson",
+      "batting_order": 9,
+      "expected_pa": 3.68,
+      "classification": "Established",
+      "projected_hr_probability": 0.0772,
+      "neutral_hr_probability": 0.0772,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0216,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0216,
+      "confidence": "Medium-low",
+      "signals": [
+        "7 HR in 425 PA",
+        "Batting order 9",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 46,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 32.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "player": "Cooper Pratt",
+      "team": "Milwaukee Brewers",
+      "opponent": "San Diego Padres",
+      "venue": "American Family Field",
+      "opposing_starter": "Michael King",
+      "batting_order": 8,
+      "expected_pa": 3.68,
+      "classification": "Established",
+      "projected_hr_probability": 0.0707,
+      "neutral_hr_probability": 0.0707,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0197,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0197,
+      "confidence": "Medium-low",
+      "signals": [
+        "3 HR in 266 PA",
+        "Batting order 8",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 46,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 25.0,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor",
+        "verified roof status"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    }
+  ],
+  "games": [
+    {
+      "game_pk": 849825,
+      "game": "San Diego Padres at Milwaukee Brewers",
+      "venue": "American Family Field",
+      "players": [],
+      "game_favorite": "Jackson Chourio",
+      "under_the_radar": null,
+      "secondary_under_the_radar": null,
+      "tertiary_under_the_radar": null,
+      "context_riser": "Jackson Chourio",
+      "status": "pass",
+      "pass_reason": "No non-star hitter cleared the 12% probability and support-signal threshold."
+    }
+  ],
+  "notes": [
+    "No sportsbook lines, betting odds, or public sentiment are used.",
+    "Players with limited MLB data are partially pooled using a 100-PA HR-rate prior and Statcast contact-quality blend.",
+    "Each call includes missing inputs rather than silently substituting stale or guessed data."
+  ]
+}
