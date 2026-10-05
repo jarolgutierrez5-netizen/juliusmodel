@@ -5746,5 +5746,245 @@
       "trained historical model artifact",
       "validated handedness-specific park factor"
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Jackson Chourio",
+    "projection": 0.1572,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Jake Bauers",
+    "projection": 0.1539,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Manny Machado",
+    "projection": 0.1531,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Ty France",
+    "projection": 0.1465,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Fernando Tatis Jr.",
+    "projection": 0.1383,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Jackson Merrill",
+    "projection": 0.132,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Ethan Salas",
+    "projection": 0.1242,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Brice Turang",
+    "projection": 0.1217,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "William Contreras",
+    "projection": 0.1152,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Luis Campusano",
+    "projection": 0.1073,
+    "review_label": "opportunity-limited",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Christian Yelich",
+    "projection": 0.099,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Garrett Mitchell",
+    "projection": 0.0917,
+    "review_label": "high-input-uncertainty",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Xander Bogaerts",
+    "projection": 0.0859,
+    "review_label": "opportunity-limited",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Jake Cronenworth",
+    "projection": 0.0772,
+    "review_label": "opportunity-limited",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "player": "Cooper Pratt",
+    "projection": 0.0707,
+    "review_label": "opportunity-limited",
+    "missing_inputs": [
+      "game-time temperature and wind",
+      "handedness-split bullpen HR/barrel rates",
+      "maximum exit velocity",
+      "minor-league HR and PA",
+      "starter Statcast profile",
+      "trained historical model artifact",
+      "validated handedness-specific park factor",
+      "verified roof status"
+    ]
   }
 ]
