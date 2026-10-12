@@ -1,0 +1,1286 @@
+{
+  "date": "2026-10-12",
+  "model_version": "matchup-adjusted-statcast-3.0",
+  "method": "Partial-pooling HR/PA model with hitter contact quality, starter Statcast, pitch-mix fit, expected PA, and transparent neutral fallbacks.",
+  "calls": [
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Junior Caminero",
+      "team": "Tampa Bay Rays",
+      "opponent": "Cleveland Guardians",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Foster Griffin",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1886,
+      "neutral_hr_probability": 0.1886,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0475,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0475,
+      "confidence": "Medium-low",
+      "signals": [
+        "42 HR in 702 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 55,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 89.8,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Victor Mesa Jr.",
+      "team": "Tampa Bay Rays",
+      "opponent": "Cleveland Guardians",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Foster Griffin",
+      "batting_order": 5,
+      "expected_pa": 4.0,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1545,
+      "neutral_hr_probability": 0.1545,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0411,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0411,
+      "confidence": "Medium-low",
+      "signals": [
+        "14 HR in 262 PA",
+        "Batting order 5",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 53,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 81.2,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Ryan Vilade",
+      "team": "Tampa Bay Rays",
+      "opponent": "Cleveland Guardians",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Foster Griffin",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Under-the-radar",
+      "projected_hr_probability": 0.1386,
+      "neutral_hr_probability": 0.1386,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0342,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0342,
+      "confidence": "Medium-low",
+      "signals": [
+        "11 HR in 278 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 52,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 62.8,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Nathaniel Lowe",
+      "team": "Cleveland Guardians",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Drew Rasmussen",
+      "batting_order": 5,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.1317,
+      "neutral_hr_probability": 0.1317,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0347,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0347,
+      "confidence": "Medium-low",
+      "signals": [
+        "17 HR in 429 PA",
+        "Batting order 5",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 51,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 62.8,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Jo Adell",
+      "team": "Cleveland Guardians",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Drew Rasmussen",
+      "batting_order": 4,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.131,
+      "neutral_hr_probability": 0.131,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0322,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0322,
+      "confidence": "Medium-low",
+      "signals": [
+        "23 HR in 660 PA",
+        "Batting order 4",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 51,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 56.5,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Yandy D\u00edaz",
+      "team": "Tampa Bay Rays",
+      "opponent": "Cleveland Guardians",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Foster Griffin",
+      "batting_order": 1,
+      "expected_pa": 4.49,
+      "classification": "Established",
+      "projected_hr_probability": 0.1299,
+      "neutral_hr_probability": 0.1299,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0305,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0305,
+      "confidence": "Medium-low",
+      "signals": [
+        "22 HR in 686 PA",
+        "Batting order 1",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 51,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 52.8,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.55
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Jonathan Aranda",
+      "team": "Tampa Bay Rays",
+      "opponent": "Cleveland Guardians",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Foster Griffin",
+      "batting_order": 2,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1265,
+      "neutral_hr_probability": 0.1265,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.031,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.031,
+      "confidence": "Medium-low",
+      "signals": [
+        "22 HR in 668 PA",
+        "Batting order 2",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 50,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 53.9,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Chase DeLauter",
+      "team": "Cleveland Guardians",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Drew Rasmussen",
+      "batting_order": 3,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1164,
+      "neutral_hr_probability": 0.1164,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0284,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0284,
+      "confidence": "Medium-low",
+      "signals": [
+        "16 HR in 559 PA",
+        "Batting order 3",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 50,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 48.2,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Jonny DeLuca",
+      "team": "Tampa Bay Rays",
+      "opponent": "Cleveland Guardians",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Foster Griffin",
+      "batting_order": 6,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.1113,
+      "neutral_hr_probability": 0.1113,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0291,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0291,
+      "confidence": "Medium-low",
+      "signals": [
+        "11 HR in 370 PA",
+        "Batting order 6",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 49,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 49.6,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Travis Bazzana",
+      "team": "Cleveland Guardians",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Drew Rasmussen",
+      "batting_order": 6,
+      "expected_pa": 4.0,
+      "classification": "Established",
+      "projected_hr_probability": 0.1097,
+      "neutral_hr_probability": 0.1097,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0287,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0287,
+      "confidence": "Medium-low",
+      "signals": [
+        "15 HR in 517 PA",
+        "Batting order 6",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 49,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 48.7,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.05
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Patrick Bailey",
+      "team": "Cleveland Guardians",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Drew Rasmussen",
+      "batting_order": 7,
+      "expected_pa": 3.68,
+      "classification": "Established",
+      "projected_hr_probability": 0.1016,
+      "neutral_hr_probability": 0.1016,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0287,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0287,
+      "confidence": "Medium-low",
+      "signals": [
+        "10 HR in 345 PA",
+        "Batting order 7",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 48,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 48.6,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Jos\u00e9 Ram\u00edrez",
+      "team": "Cleveland Guardians",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Drew Rasmussen",
+      "batting_order": 2,
+      "expected_pa": 4.29,
+      "classification": "Established",
+      "projected_hr_probability": 0.1012,
+      "neutral_hr_probability": 0.1012,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0246,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0246,
+      "confidence": "Medium-low",
+      "signals": [
+        "12 HR in 544 PA",
+        "Batting order 2",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 48,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 39.4,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.03,
+        "lineup_pa_baseline": 4.35
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Brayan Rocchio",
+      "team": "Cleveland Guardians",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Drew Rasmussen",
+      "batting_order": 9,
+      "expected_pa": 3.68,
+      "classification": "Established",
+      "projected_hr_probability": 0.094,
+      "neutral_hr_probability": 0.094,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0265,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0265,
+      "confidence": "Medium-low",
+      "signals": [
+        "15 HR in 592 PA",
+        "Batting order 9",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 48,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 43.8,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Petey Halpin",
+      "team": "Cleveland Guardians",
+      "opponent": "Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Drew Rasmussen",
+      "batting_order": 8,
+      "expected_pa": 3.68,
+      "classification": "Established",
+      "projected_hr_probability": 0.0885,
+      "neutral_hr_probability": 0.0885,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0249,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0249,
+      "confidence": "Medium-low",
+      "signals": [
+        "4 HR in 195 PA",
+        "Batting order 8",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 47,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 37.4,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    },
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "player": "Nick Fortes",
+      "team": "Tampa Bay Rays",
+      "opponent": "Cleveland Guardians",
+      "venue": "Tropicana Field",
+      "opposing_starter": "Foster Griffin",
+      "batting_order": 9,
+      "expected_pa": 3.68,
+      "classification": "Established",
+      "projected_hr_probability": 0.0826,
+      "neutral_hr_probability": 0.0826,
+      "context_boost": 0.0,
+      "hr_per_pa": 0.0231,
+      "model_status": {
+        "mode": "transparent-prototype",
+        "reason": "No trained artifact found."
+      },
+      "prototype_hr_per_pa": 0.0231,
+      "confidence": "Medium-low",
+      "signals": [
+        "6 HR in 323 PA",
+        "Batting order 9",
+        "pitch-shape interaction unavailable"
+      ],
+      "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+      "signal_score": 47,
+      "signal_tier": "No call",
+      "signal_components": {
+        "barrels_per_pa": 50.0,
+        "hard_hit_rate": 50.0,
+        "max_exit_velocity": 50.0,
+        "airborne_pull_rate": 50.0,
+        "hr_per_pa": 34.8,
+        "recent_contact_trend": 50.0
+      },
+      "signal_tags": [
+        "balanced power profile"
+      ],
+      "playing_time": {
+        "start_probability": 1.0,
+        "substitution_risk": 0.07,
+        "lineup_pa_baseline": 3.8
+      },
+      "starter_exposure_share": 0.65,
+      "missing_inputs": [
+        "game-time temperature and wind",
+        "handedness-split bullpen HR/barrel rates",
+        "maximum exit velocity",
+        "minor-league HR and PA",
+        "starter Statcast profile",
+        "trained historical model artifact",
+        "validated handedness-specific park factor"
+      ],
+      "features": {
+        "sc_pa": null,
+        "barrel_per_pa": null,
+        "barrel_rate": null,
+        "avg_ev": null,
+        "max_ev": null,
+        "hard_hit_rate": null,
+        "fly_ball_rate": null,
+        "recent_barrel_per_pa": null,
+        "hr_per_pa_statcast": null,
+        "pulled_air_rate": null
+      },
+      "pitcher_features": {
+        "barrel_per_pa": null,
+        "fly_ball_rate": null,
+        "hr_per_pa_statcast": null
+      },
+      "result": "pending"
+    }
+  ],
+  "games": [
+    {
+      "game_pk": 849820,
+      "game": "Cleveland Guardians at Tampa Bay Rays",
+      "venue": "Tropicana Field",
+      "players": [
+        {
+          "game_pk": 849820,
+          "game": "Cleveland Guardians at Tampa Bay Rays",
+          "player": "Victor Mesa Jr.",
+          "team": "Tampa Bay Rays",
+          "opponent": "Cleveland Guardians",
+          "venue": "Tropicana Field",
+          "opposing_starter": "Foster Griffin",
+          "batting_order": 5,
+          "expected_pa": 4.0,
+          "classification": "Under-the-radar",
+          "projected_hr_probability": 0.1545,
+          "neutral_hr_probability": 0.1545,
+          "context_boost": 0.0,
+          "hr_per_pa": 0.0411,
+          "model_status": {
+            "mode": "transparent-prototype",
+            "reason": "No trained artifact found."
+          },
+          "prototype_hr_per_pa": 0.0411,
+          "confidence": "Medium-low",
+          "signals": [
+            "14 HR in 262 PA",
+            "Batting order 5",
+            "pitch-shape interaction unavailable"
+          ],
+          "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+          "signal_score": 53,
+          "signal_tier": "No call",
+          "signal_components": {
+            "barrels_per_pa": 50.0,
+            "hard_hit_rate": 50.0,
+            "max_exit_velocity": 50.0,
+            "airborne_pull_rate": 50.0,
+            "hr_per_pa": 81.2,
+            "recent_contact_trend": 50.0
+          },
+          "signal_tags": [
+            "balanced power profile"
+          ],
+          "playing_time": {
+            "start_probability": 1.0,
+            "substitution_risk": 0.03,
+            "lineup_pa_baseline": 4.05
+          },
+          "starter_exposure_share": 0.65,
+          "missing_inputs": [
+            "game-time temperature and wind",
+            "handedness-split bullpen HR/barrel rates",
+            "maximum exit velocity",
+            "minor-league HR and PA",
+            "starter Statcast profile",
+            "trained historical model artifact",
+            "validated handedness-specific park factor"
+          ],
+          "features": {
+            "sc_pa": null,
+            "barrel_per_pa": null,
+            "barrel_rate": null,
+            "avg_ev": null,
+            "max_ev": null,
+            "hard_hit_rate": null,
+            "fly_ball_rate": null,
+            "recent_barrel_per_pa": null,
+            "hr_per_pa_statcast": null,
+            "pulled_air_rate": null
+          },
+          "pitcher_features": {
+            "barrel_per_pa": null,
+            "fly_ball_rate": null,
+            "hr_per_pa_statcast": null
+          },
+          "result": "pending"
+        },
+        {
+          "game_pk": 849820,
+          "game": "Cleveland Guardians at Tampa Bay Rays",
+          "player": "Ryan Vilade",
+          "team": "Tampa Bay Rays",
+          "opponent": "Cleveland Guardians",
+          "venue": "Tropicana Field",
+          "opposing_starter": "Foster Griffin",
+          "batting_order": 4,
+          "expected_pa": 4.29,
+          "classification": "Under-the-radar",
+          "projected_hr_probability": 0.1386,
+          "neutral_hr_probability": 0.1386,
+          "context_boost": 0.0,
+          "hr_per_pa": 0.0342,
+          "model_status": {
+            "mode": "transparent-prototype",
+            "reason": "No trained artifact found."
+          },
+          "prototype_hr_per_pa": 0.0342,
+          "confidence": "Medium-low",
+          "signals": [
+            "11 HR in 278 PA",
+            "Batting order 4",
+            "pitch-shape interaction unavailable"
+          ],
+          "primary_risk": "Starter-specific contact context unavailable; pitcher adjustment is neutral",
+          "signal_score": 52,
+          "signal_tier": "No call",
+          "signal_components": {
+            "barrels_per_pa": 50.0,
+            "hard_hit_rate": 50.0,
+            "max_exit_velocity": 50.0,
+            "airborne_pull_rate": 50.0,
+            "hr_per_pa": 62.8,
+            "recent_contact_trend": 50.0
+          },
+          "signal_tags": [
+            "balanced power profile"
+          ],
+          "playing_time": {
+            "start_probability": 1.0,
+            "substitution_risk": 0.03,
+            "lineup_pa_baseline": 4.35
+          },
+          "starter_exposure_share": 0.65,
+          "missing_inputs": [
+            "game-time temperature and wind",
+            "handedness-split bullpen HR/barrel rates",
+            "maximum exit velocity",
+            "minor-league HR and PA",
+            "starter Statcast profile",
+            "trained historical model artifact",
+            "validated handedness-specific park factor"
+          ],
+          "features": {
+            "sc_pa": null,
+            "barrel_per_pa": null,
+            "barrel_rate": null,
+            "avg_ev": null,
+            "max_ev": null,
+            "hard_hit_rate": null,
+            "fly_ball_rate": null,
+            "recent_barrel_per_pa": null,
+            "hr_per_pa_statcast": null,
+            "pulled_air_rate": null
+          },
+          "pitcher_features": {
+            "barrel_per_pa": null,
+            "fly_ball_rate": null,
+            "hr_per_pa_statcast": null
+          },
+          "result": "pending"
+        }
+      ],
+      "game_favorite": "Junior Caminero",
+      "under_the_radar": "Victor Mesa Jr.",
+      "secondary_under_the_radar": "Ryan Vilade",
+      "tertiary_under_the_radar": null,
+      "context_riser": "Junior Caminero",
+      "status": "qualifying call",
+      "pass_reason": null
+    }
+  ],
+  "notes": [
+    "No sportsbook lines, betting odds, or public sentiment are used.",
+    "Players with limited MLB data are partially pooled using a 100-PA HR-rate prior and Statcast contact-quality blend.",
+    "Each call includes missing inputs rather than silently substituting stale or guessed data."
+  ]
+}
